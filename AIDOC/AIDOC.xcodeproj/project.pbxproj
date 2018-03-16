@@ -133,6 +133,7 @@
 		09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BD29962005263000DEE680 /* UIView+WebCacheOperation.m */; };
 		09CA8461200D3E09008761E3 /* ShareSportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CA8460200D3E09008761E3 /* ShareSportsViewController.m */; };
 		09DB6EBD200C98BD000C4112 /* GoalSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB6EBC200C98BD000C4112 /* GoalSetViewController.m */; };
+		2F9C9EF3F9DAB85828D69292 /* libPods-AIDOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 977DCE6DBCB84878405DDE6A /* libPods-AIDOC.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -411,6 +412,9 @@
 		09CA8460200D3E09008761E3 /* ShareSportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSportsViewController.m; sourceTree = "<group>"; };
 		09DB6EBB200C98BD000C4112 /* GoalSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalSetViewController.h; sourceTree = "<group>"; };
 		09DB6EBC200C98BD000C4112 /* GoalSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalSetViewController.m; sourceTree = "<group>"; };
+		71C6B3EF8B19E2C7A91914E3 /* Pods-AIDOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIDOC/Pods-AIDOC.release.xcconfig"; sourceTree = "<group>"; };
+		977DCE6DBCB84878405DDE6A /* libPods-AIDOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIDOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA53E1181E3B602C9455CCF7 /* Pods-AIDOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIDOC/Pods-AIDOC.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -418,6 +422,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F9C9EF3F9DAB85828D69292 /* libPods-AIDOC.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +450,8 @@
 				0905A7D020033FA000480448 /* AIDOCTests */,
 				0905A7DB20033FA000480448 /* AIDOCUITests */,
 				0905A7B520033FA000480448 /* Products */,
+				538D06D563B8CF1B51EDAD73 /* Pods */,
+				537FBEF2686395DDDA67C2AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -1174,6 +1181,23 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		537FBEF2686395DDDA67C2AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				977DCE6DBCB84878405DDE6A /* libPods-AIDOC.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		538D06D563B8CF1B51EDAD73 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CA53E1181E3B602C9455CCF7 /* Pods-AIDOC.debug.xcconfig */,
+				71C6B3EF8B19E2C7A91914E3 /* Pods-AIDOC.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1181,9 +1205,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0905A7E120033FA000480448 /* Build configuration list for PBXNativeTarget "AIDOC" */;
 			buildPhases = (
+				0FEE1A135C1EE80DE6DB00B2 /* [CP] Check Pods Manifest.lock */,
 				0905A7B020033FA000480448 /* Sources */,
 				0905A7B120033FA000480448 /* Frameworks */,
 				0905A7B220033FA000480448 /* Resources */,
+				E41D5AA70ACE219791D0D917 /* [CP] Embed Pods Frameworks */,
+				BF7076817875A7A95CDBE31A /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1302,6 +1329,74 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0FEE1A135C1EE80DE6DB00B2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AIDOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF7076817875A7A95CDBE31A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AIDOC/Pods-AIDOC-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyBoardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialSDKPlugin/UMSocialSDKPromptResources.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/QQ/QQSDK/TencentOpenApi_IOS_Bundle.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Sina/SinaSDK/WeiboSDK.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter/TwitterKitResources.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/SocialLibraries/Twitter/TwitterShareExtensionUIResources.bundle",
+				"${PODS_ROOT}/UMCShare/UMShare/UMSocialUI/UMSocialSDKResources.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKPromptResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TencentOpenApi_IOS_Bundle.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/WeiboSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterKitResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TwitterShareExtensionUIResources.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/UMSocialSDKResources.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AIDOC/Pods-AIDOC-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E41D5AA70ACE219791D0D917 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AIDOC/Pods-AIDOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0905A7B020033FA000480448 /* Sources */ = {
@@ -1574,6 +1669,7 @@
 		};
 		0905A7E220033FA000480448 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA53E1181E3B602C9455CCF7 /* Pods-AIDOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AIDOC/PrefixHeader.pch";
@@ -1586,6 +1682,7 @@
 		};
 		0905A7E320033FA000480448 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71C6B3EF8B19E2C7A91914E3 /* Pods-AIDOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AIDOC/PrefixHeader.pch";

@@ -1,0 +1,37 @@
+platform :ios, ‘8.0’
+target 'AIDOC' do
+pod 'Masonry'
+
+#友盟：基础库，统计 SDK，错误分析 SDK，分享 SDK
+#基础库
+pod 'UMCCommon'
+pod 'UMCSecurityPlugins'
+#统计 SDK
+pod 'UMCAnalytics'
+#错误分析 SDK
+pod 'UMCErrorCatch'
+#分享 SDK
+# U-Share SDK UI模块（分享面板，建议添加）
+pod 'UMCShare/UI'
+# 集成微信(完整版14.4M)
+pod 'UMCShare/Social/WeChat'
+# 集成QQ/QZone/TIM(完整版7.6M)
+pod 'UMCShare/Social/QQ'
+# 集成新浪微博(完整版25.3M)
+pod 'UMCShare/Social/Sina'
+# 集成Facebook/Messenger
+pod 'UMCShare/Social/Facebook'
+# 集成Twitter
+pod 'UMCShare/Social/Twitter'
+
+#第三方网络库
+pod 'AFNetworking'
+#键盘管理库
+pod 'IQKeyboardManager', '~> 3.2.0.3’
+#键盘管理库
+pod 'SVProgressHUD'
+#JSON数据和Model转换
+pod 'YYModel'
+
+end
+
