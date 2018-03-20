@@ -1,0 +1,11 @@
+framework module TFScale {
+  umbrella header "TFScale.h"
+
+  export *
+  module * { export * }
+}
+
+module TFScale.Swift {
+    header "TFScale-Swift.h"
+    requires objc
+}

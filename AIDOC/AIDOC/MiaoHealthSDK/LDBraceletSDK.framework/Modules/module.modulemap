@@ -1,0 +1,6 @@
+framework module LDBraceletSDK {
+  umbrella header "LDBraceletSDK.h"
+
+  export *
+  module * { export * }
+}

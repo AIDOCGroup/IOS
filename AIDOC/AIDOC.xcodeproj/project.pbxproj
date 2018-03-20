@@ -133,6 +133,16 @@
 		09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BD29962005263000DEE680 /* UIView+WebCacheOperation.m */; };
 		09CA8461200D3E09008761E3 /* ShareSportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CA8460200D3E09008761E3 /* ShareSportsViewController.m */; };
 		09DB6EBD200C98BD000C4112 /* GoalSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB6EBC200C98BD000C4112 /* GoalSetViewController.m */; };
+		1DFEC7EF2061321800B44B70 /* MiaoHealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E52061321800B44B70 /* MiaoHealthConnect.framework */; };
+		1DFEC7F02061321800B44B70 /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E62061321800B44B70 /* BluetoothManager.framework */; };
+		1DFEC7F12061321800B44B70 /* TFScale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E72061321800B44B70 /* TFScale.framework */; };
+		1DFEC7F22061321800B44B70 /* ICTBleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E82061321800B44B70 /* ICTBleSDK.framework */; };
+		1DFEC7F32061321800B44B70 /* BosmaBleSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E92061321800B44B70 /* BosmaBleSDK.framework */; };
+		1DFEC7F42061321800B44B70 /* UTESmartBandApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7EA2061321800B44B70 /* UTESmartBandApi.framework */; };
+		1DFEC7F52061321800B44B70 /* Milky.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7EB2061321800B44B70 /* Milky.framework */; };
+		1DFEC7F62061321800B44B70 /* MIOGlobal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7EC2061321800B44B70 /* MIOGlobal.framework */; };
+		1DFEC7F72061321800B44B70 /* LDBraceletSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7ED2061321800B44B70 /* LDBraceletSDK.framework */; };
+		1DFEC7F82061321800B44B70 /* Reston.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7EE2061321800B44B70 /* Reston.framework */; };
 		2F9C9EF3F9DAB85828D69292 /* libPods-AIDOC.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 977DCE6DBCB84878405DDE6A /* libPods-AIDOC.a */; };
 /* End PBXBuildFile section */
 
@@ -412,6 +422,16 @@
 		09CA8460200D3E09008761E3 /* ShareSportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSportsViewController.m; sourceTree = "<group>"; };
 		09DB6EBB200C98BD000C4112 /* GoalSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalSetViewController.h; sourceTree = "<group>"; };
 		09DB6EBC200C98BD000C4112 /* GoalSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalSetViewController.m; sourceTree = "<group>"; };
+		1DFEC7E52061321800B44B70 /* MiaoHealthConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MiaoHealthConnect.framework; sourceTree = "<group>"; };
+		1DFEC7E62061321800B44B70 /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BluetoothManager.framework; sourceTree = "<group>"; };
+		1DFEC7E72061321800B44B70 /* TFScale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TFScale.framework; sourceTree = "<group>"; };
+		1DFEC7E82061321800B44B70 /* ICTBleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ICTBleSDK.framework; sourceTree = "<group>"; };
+		1DFEC7E92061321800B44B70 /* BosmaBleSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BosmaBleSDK.framework; sourceTree = "<group>"; };
+		1DFEC7EA2061321800B44B70 /* UTESmartBandApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = UTESmartBandApi.framework; sourceTree = "<group>"; };
+		1DFEC7EB2061321800B44B70 /* Milky.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Milky.framework; sourceTree = "<group>"; };
+		1DFEC7EC2061321800B44B70 /* MIOGlobal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MIOGlobal.framework; sourceTree = "<group>"; };
+		1DFEC7ED2061321800B44B70 /* LDBraceletSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = LDBraceletSDK.framework; sourceTree = "<group>"; };
+		1DFEC7EE2061321800B44B70 /* Reston.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reston.framework; sourceTree = "<group>"; };
 		71C6B3EF8B19E2C7A91914E3 /* Pods-AIDOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDOC.release.xcconfig"; path = "Pods/Target Support Files/Pods-AIDOC/Pods-AIDOC.release.xcconfig"; sourceTree = "<group>"; };
 		977DCE6DBCB84878405DDE6A /* libPods-AIDOC.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AIDOC.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA53E1181E3B602C9455CCF7 /* Pods-AIDOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AIDOC.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AIDOC/Pods-AIDOC.debug.xcconfig"; sourceTree = "<group>"; };
@@ -422,7 +442,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1DFEC7F32061321800B44B70 /* BosmaBleSDK.framework in Frameworks */,
+				1DFEC7F52061321800B44B70 /* Milky.framework in Frameworks */,
+				1DFEC7F22061321800B44B70 /* ICTBleSDK.framework in Frameworks */,
 				2F9C9EF3F9DAB85828D69292 /* libPods-AIDOC.a in Frameworks */,
+				1DFEC7EF2061321800B44B70 /* MiaoHealthConnect.framework in Frameworks */,
+				1DFEC7F82061321800B44B70 /* Reston.framework in Frameworks */,
+				1DFEC7F72061321800B44B70 /* LDBraceletSDK.framework in Frameworks */,
+				1DFEC7F02061321800B44B70 /* BluetoothManager.framework in Frameworks */,
+				1DFEC7F42061321800B44B70 /* UTESmartBandApi.framework in Frameworks */,
+				1DFEC7F12061321800B44B70 /* TFScale.framework in Frameworks */,
+				1DFEC7F62061321800B44B70 /* MIOGlobal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -468,6 +498,7 @@
 		0905A7B620033FA000480448 /* AIDOC */ = {
 			isa = PBXGroup;
 			children = (
+				1DFEC7E42061321800B44B70 /* MiaoHealthSDK */,
 				0962F1BF20034EA0006059CC /* Main */,
 				0962F1D820034EA0006059CC /* Common */,
 				0905A7BA20033FA000480448 /* AppDelegate.h */,
@@ -1181,6 +1212,23 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		1DFEC7E42061321800B44B70 /* MiaoHealthSDK */ = {
+			isa = PBXGroup;
+			children = (
+				1DFEC7E52061321800B44B70 /* MiaoHealthConnect.framework */,
+				1DFEC7E62061321800B44B70 /* BluetoothManager.framework */,
+				1DFEC7E72061321800B44B70 /* TFScale.framework */,
+				1DFEC7E82061321800B44B70 /* ICTBleSDK.framework */,
+				1DFEC7E92061321800B44B70 /* BosmaBleSDK.framework */,
+				1DFEC7EA2061321800B44B70 /* UTESmartBandApi.framework */,
+				1DFEC7EB2061321800B44B70 /* Milky.framework */,
+				1DFEC7EC2061321800B44B70 /* MIOGlobal.framework */,
+				1DFEC7ED2061321800B44B70 /* LDBraceletSDK.framework */,
+				1DFEC7EE2061321800B44B70 /* Reston.framework */,
+			);
+			path = MiaoHealthSDK;
+			sourceTree = "<group>";
+		};
 		537FBEF2686395DDDA67C2AE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -1672,6 +1720,10 @@
 			baseConfigurationReference = CA53E1181E3B602C9455CCF7 /* Pods-AIDOC.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AIDOC/MiaoHealthSDK",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AIDOC/PrefixHeader.pch";
 				INFOPLIST_FILE = AIDOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1685,6 +1737,10 @@
 			baseConfigurationReference = 71C6B3EF8B19E2C7A91914E3 /* Pods-AIDOC.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/AIDOC/MiaoHealthSDK",
+				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AIDOC/PrefixHeader.pch";
 				INFOPLIST_FILE = AIDOC/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

@@ -1,0 +1,6 @@
+framework module Milky {
+  umbrella header "Milky.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module MiaoHealthConnect {
+  umbrella header "MiaoHealthConnect.h"
+
+  export *
+  module * { export * }
+}

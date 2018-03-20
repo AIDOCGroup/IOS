@@ -1,0 +1,6 @@
+framework module BosmaBleSDK {
+  umbrella header "BosmaBleSDK.h"
+
+  export *
+  module * { export * }
+}
