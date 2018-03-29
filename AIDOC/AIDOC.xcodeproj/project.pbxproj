@@ -133,6 +133,11 @@
 		09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BD29962005263000DEE680 /* UIView+WebCacheOperation.m */; };
 		09CA8461200D3E09008761E3 /* ShareSportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CA8460200D3E09008761E3 /* ShareSportsViewController.m */; };
 		09DB6EBD200C98BD000C4112 /* GoalSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB6EBC200C98BD000C4112 /* GoalSetViewController.m */; };
+		1D6CB6AC206CD98D007BA353 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6A1206CD98D007BA353 /* WMPageController.m */; };
+		1D6CB6AD206CD98D007BA353 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6A7206CD98D007BA353 /* WMMenuItem.m */; };
+		1D6CB6AE206CD98D007BA353 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6A8206CD98D007BA353 /* WMScrollView.m */; };
+		1D6CB6AF206CD98D007BA353 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6A9206CD98D007BA353 /* WMMenuView.m */; };
+		1D6CB6B0206CD98D007BA353 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6AA206CD98D007BA353 /* WMProgressView.m */; };
 		1DFEC7EF2061321800B44B70 /* MiaoHealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E52061321800B44B70 /* MiaoHealthConnect.framework */; };
 		1DFEC7F02061321800B44B70 /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E62061321800B44B70 /* BluetoothManager.framework */; };
 		1DFEC7F12061321800B44B70 /* TFScale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E72061321800B44B70 /* TFScale.framework */; };
@@ -422,6 +427,16 @@
 		09CA8460200D3E09008761E3 /* ShareSportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSportsViewController.m; sourceTree = "<group>"; };
 		09DB6EBB200C98BD000C4112 /* GoalSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalSetViewController.h; sourceTree = "<group>"; };
 		09DB6EBC200C98BD000C4112 /* GoalSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalSetViewController.m; sourceTree = "<group>"; };
+		1D6CB6A1206CD98D007BA353 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
+		1D6CB6A3206CD98D007BA353 /* WMScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMScrollView.h; sourceTree = "<group>"; };
+		1D6CB6A4206CD98D007BA353 /* WMMenuItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuItem.h; sourceTree = "<group>"; };
+		1D6CB6A5206CD98D007BA353 /* WMMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMMenuView.h; sourceTree = "<group>"; };
+		1D6CB6A6206CD98D007BA353 /* WMProgressView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMProgressView.h; sourceTree = "<group>"; };
+		1D6CB6A7206CD98D007BA353 /* WMMenuItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuItem.m; sourceTree = "<group>"; };
+		1D6CB6A8206CD98D007BA353 /* WMScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMScrollView.m; sourceTree = "<group>"; };
+		1D6CB6A9206CD98D007BA353 /* WMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
+		1D6CB6AA206CD98D007BA353 /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
+		1D6CB6AB206CD98D007BA353 /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
 		1DFEC7E52061321800B44B70 /* MiaoHealthConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MiaoHealthConnect.framework; sourceTree = "<group>"; };
 		1DFEC7E62061321800B44B70 /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BluetoothManager.framework; sourceTree = "<group>"; };
 		1DFEC7E72061321800B44B70 /* TFScale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TFScale.framework; sourceTree = "<group>"; };
@@ -498,6 +513,7 @@
 		0905A7B620033FA000480448 /* AIDOC */ = {
 			isa = PBXGroup;
 			children = (
+				1D6CB69F206CD96B007BA353 /* Vendors */,
 				1DFEC7E42061321800B44B70 /* MiaoHealthSDK */,
 				0962F1BF20034EA0006059CC /* Main */,
 				0962F1D820034EA0006059CC /* Common */,
@@ -1212,6 +1228,39 @@
 			path = SDWebImage;
 			sourceTree = "<group>";
 		};
+		1D6CB69F206CD96B007BA353 /* Vendors */ = {
+			isa = PBXGroup;
+			children = (
+				1D6CB6A0206CD98D007BA353 /* WMPageController */,
+			);
+			path = Vendors;
+			sourceTree = "<group>";
+		};
+		1D6CB6A0206CD98D007BA353 /* WMPageController */ = {
+			isa = PBXGroup;
+			children = (
+				1D6CB6A1206CD98D007BA353 /* WMPageController.m */,
+				1D6CB6A2206CD98D007BA353 /* WMMenuView */,
+				1D6CB6AB206CD98D007BA353 /* WMPageController.h */,
+			);
+			path = WMPageController;
+			sourceTree = "<group>";
+		};
+		1D6CB6A2206CD98D007BA353 /* WMMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				1D6CB6A3206CD98D007BA353 /* WMScrollView.h */,
+				1D6CB6A4206CD98D007BA353 /* WMMenuItem.h */,
+				1D6CB6A5206CD98D007BA353 /* WMMenuView.h */,
+				1D6CB6A6206CD98D007BA353 /* WMProgressView.h */,
+				1D6CB6A7206CD98D007BA353 /* WMMenuItem.m */,
+				1D6CB6A8206CD98D007BA353 /* WMScrollView.m */,
+				1D6CB6A9206CD98D007BA353 /* WMMenuView.m */,
+				1D6CB6AA206CD98D007BA353 /* WMProgressView.m */,
+			);
+			path = WMMenuView;
+			sourceTree = "<group>";
+		};
 		1DFEC7E42061321800B44B70 /* MiaoHealthSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -1470,6 +1519,7 @@
 				092F12F0200CE6140012C67E /* ZFYAxisLine.m in Sources */,
 				09BD299D2005263000DEE680 /* SDWebImageCoder.m in Sources */,
 				09851171200F8A51008DA0EE /* ExampleViewController.m in Sources */,
+				1D6CB6AF206CD98D007BA353 /* WMMenuView.m in Sources */,
 				09BD299E2005263000DEE680 /* SDWebImageCoderHelper.m in Sources */,
 				09BD29A82005263000DEE680 /* SDWebImageWebPCoder.m in Sources */,
 				092F12F1200CE6140012C67E /* ZFCurveAttribute.m in Sources */,
@@ -1503,6 +1553,7 @@
 				0985114D200E9CAC008DA0EE /* ChagePersonViewController.m in Sources */,
 				0962F22920035938006059CC /* StoreViewController.m in Sources */,
 				0962F1FE2003523E006059CC /* BaseModel.m in Sources */,
+				1D6CB6AE206CD98D007BA353 /* WMScrollView.m in Sources */,
 				092F1308200CE6140012C67E /* ZFWaveChart.m in Sources */,
 				09851159200F4C24008DA0EE /* SpoilAdviseViewController.m in Sources */,
 				0985114A200E9A7F008DA0EE /* MeDetailViewController.m in Sources */,
@@ -1517,6 +1568,7 @@
 				09BD29AF2005263000DEE680 /* UIImageView+WebCache.m in Sources */,
 				09BD299B2005263000DEE680 /* SDImageCache.m in Sources */,
 				09851187200F8BAA008DA0EE /* NSMutableArray+convenience.m in Sources */,
+				1D6CB6AC206CD98D007BA353 /* WMPageController.m in Sources */,
 				0962F22F20035D09006059CC /* UIAlertTool.m in Sources */,
 				092F12F9200CE6140012C67E /* ZFGenericAxis.m in Sources */,
 				0962F20F20035636006059CC /* BaseNavigationController.m in Sources */,
@@ -1530,6 +1582,7 @@
 				09851153200EA819008DA0EE /* AboutUsViewController.m in Sources */,
 				092F1301200CE6140012C67E /* ZFPie.m in Sources */,
 				09BD29AD2005263000DEE680 /* UIImage+WebP.m in Sources */,
+				1D6CB6B0206CD98D007BA353 /* WMProgressView.m in Sources */,
 				0962F23820035F9A006059CC /* ProgressHUD.m in Sources */,
 				092F12E9200CE6140012C67E /* NSString+Zirkfied.m in Sources */,
 				0962F243200396D2006059CC /* ServiceProViewController.m in Sources */,
@@ -1549,6 +1602,7 @@
 				09BD299F2005263000DEE680 /* SDWebImageCodersManager.m in Sources */,
 				092F12F3200CE6140012C67E /* ZFConst.m in Sources */,
 				09BD299A2005263000DEE680 /* NSImage+WebCache.m in Sources */,
+				1D6CB6AD206CD98D007BA353 /* WMMenuItem.m in Sources */,
 				0962F1F320034EA0006059CC /* CommonFunc.m in Sources */,
 				092F12F8200CE6140012C67E /* ZFCirqueChart.m in Sources */,
 				09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */,
