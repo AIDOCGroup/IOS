@@ -138,6 +138,7 @@
 		1D6CB6AE206CD98D007BA353 /* WMScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6A8206CD98D007BA353 /* WMScrollView.m */; };
 		1D6CB6AF206CD98D007BA353 /* WMMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6A9206CD98D007BA353 /* WMMenuView.m */; };
 		1D6CB6B0206CD98D007BA353 /* WMProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6AA206CD98D007BA353 /* WMProgressView.m */; };
+		1DD39B29207249E400707A1A /* DataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DD39B27207249E300707A1A /* DataBase.m */; };
 		1DFEC7EF2061321800B44B70 /* MiaoHealthConnect.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E52061321800B44B70 /* MiaoHealthConnect.framework */; };
 		1DFEC7F02061321800B44B70 /* BluetoothManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E62061321800B44B70 /* BluetoothManager.framework */; };
 		1DFEC7F12061321800B44B70 /* TFScale.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DFEC7E72061321800B44B70 /* TFScale.framework */; };
@@ -437,6 +438,8 @@
 		1D6CB6A9206CD98D007BA353 /* WMMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMMenuView.m; sourceTree = "<group>"; };
 		1D6CB6AA206CD98D007BA353 /* WMProgressView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMProgressView.m; sourceTree = "<group>"; };
 		1D6CB6AB206CD98D007BA353 /* WMPageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WMPageController.h; sourceTree = "<group>"; };
+		1DD39B27207249E300707A1A /* DataBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataBase.m; sourceTree = "<group>"; };
+		1DD39B28207249E300707A1A /* DataBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataBase.h; sourceTree = "<group>"; };
 		1DFEC7E52061321800B44B70 /* MiaoHealthConnect.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MiaoHealthConnect.framework; sourceTree = "<group>"; };
 		1DFEC7E62061321800B44B70 /* BluetoothManager.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BluetoothManager.framework; sourceTree = "<group>"; };
 		1DFEC7E72061321800B44B70 /* TFScale.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = TFScale.framework; sourceTree = "<group>"; };
@@ -1008,6 +1011,7 @@
 		0962F1D820034EA0006059CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				1DD39B26207249E300707A1A /* FMDB */,
 				09BD2948200523B400DEE680 /* lib */,
 				0962F1D920034EA0006059CC /* Category(分类） */,
 				0962F1E420034EA0006059CC /* Network */,
@@ -1261,6 +1265,15 @@
 			path = WMMenuView;
 			sourceTree = "<group>";
 		};
+		1DD39B26207249E300707A1A /* FMDB */ = {
+			isa = PBXGroup;
+			children = (
+				1DD39B27207249E300707A1A /* DataBase.m */,
+				1DD39B28207249E300707A1A /* DataBase.h */,
+			);
+			path = FMDB;
+			sourceTree = "<group>";
+		};
 		1DFEC7E42061321800B44B70 /* MiaoHealthSDK */ = {
 			isa = PBXGroup;
 			children = (
@@ -1508,6 +1521,7 @@
 				09BD29A92005263000DEE680 /* UIButton+WebCache.m in Sources */,
 				092F12F5200CE6140012C67E /* ZFBar.m in Sources */,
 				0905A7BF20033FA000480448 /* ViewController.m in Sources */,
+				1DD39B29207249E400707A1A /* DataBase.m in Sources */,
 				0962F1FA20034FC1006059CC /* YTNetworkRequest.m in Sources */,
 				0985116B200F852C008DA0EE /* NewsDetailViewController.m in Sources */,
 				09851186200F8BAA008DA0EE /* NSDate+convenience.m in Sources */,
