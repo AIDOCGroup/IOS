@@ -84,7 +84,7 @@
 @property (nonatomic, assign) float visceralFatPercentageMin; // --------------------------
 
 // 体质指数
-@property (nonatomic, assign) float bmi;
+@property (nonatomic, assign) float BMI;
 // 体质指数正常范围下限 + 体质指数正常范围上限
 @property (nonatomic, assign) float bmiMax;
 @property (nonatomic, assign) float bmiMin;
@@ -183,7 +183,10 @@
 @property (nonatomic, assign) float score;
 
 // 体型
-@property (nonatomic, strong) NSString *physique; // --------------------------
+@property (nonatomic, assign) int physique; // --------------------------
+
+// 肥胖等级
+@property (nonatomic, assign) int fatLevel;
 
 // 脂肪肝风险度
 @property (nonatomic, assign) float fattyLiverRisk; // --------------------------

@@ -23,6 +23,3 @@ FOUNDATION_EXPORT const unsigned char MiaoHealthConnectVersionString[];
 #import <MiaoHealthConnect/MCDevice.h>
 #import <MiaoHealthConnect/MCData.h>
 #import <MiaoHealthConnect/MCData+Elder.h>
-#import <MiaoHealthConnect/MHWebViewController.h>
-
-

@@ -12,6 +12,7 @@
 #import "MMPeripheralsProvider.h"
 #import "MCData.h"
 #import "SleepSDK.h"
+#import "MHWebViewController.h"
 
 typedef NS_ENUM(NSInteger, OfficialVersionType) { //运行环境
     OfficialVersionTypePro, //预生产&正式环境

@@ -6,59 +6,59 @@
 	<dict>
 		<key>Frameworks/libswiftCore.dylib</key>
 		<data>
-		0vaQcwyaFdCOhTqN0S84qwllvQY=
+		YrFWRK7iIZktlxPZIUhL0Wl2a1o=
 		</data>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<data>
-		EOP6FPVYtrTRl6O69ABaUP4XZbI=
+		9GwvBuICw44+LknsyH/QCpgR8tU=
 		</data>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<data>
-		Tm1xnZRz9dMLHuNIKQ+aIwFSq4c=
+		Hf23TimEvUiy5Bf19FC6hdKKboY=
 		</data>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<data>
-		FQsrr1aK1o/eURiYTli4XphLgFk=
+		j5tQ4AMuJwXuzHCWhbmqi3Cf7rM=
 		</data>
 		<key>Frameworks/libswiftCoreLocation.dylib</key>
 		<data>
-		0QmMyLSzpBIoRsNz8KJM9zpjpZM=
+		LoXjenixIbTVMU9CUWWoSscGccQ=
 		</data>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<data>
-		4mbS1M76x5zOFcOgjH3G6KVveZQ=
+		5b2g5YuzOhCWFxn2BPwf0MCBG7M=
 		</data>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<data>
-		x7TagtDdWzuiOS+yWbRqc6PjSqs=
+		319EGzN7uHA+UzoIOP15lXQV8fU=
 		</data>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<data>
-		czhWJnDXL6MA8U5Lya0q3w48rPI=
+		Pzs60LhztR7yqGkDnyIcS01IENM=
 		</data>
 		<key>Frameworks/libswiftMetal.dylib</key>
 		<data>
-		YHil6kUpXFPVY4kT3hCR6Pslkq8=
+		CRFmfFCy8pzgkkpP6lHRaS5jxp8=
 		</data>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<data>
-		GwBS38uog506isbVKEHpE/uUm5M=
+		8Uq68PzEBGbnfzGfuvdFEbCD024=
 		</data>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<data>
-		MiGMwMhdixvrEmTlVkO1naDXtU0=
+		JLtVQw9o0BP75ziBRySlhJaixvU=
 		</data>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<data>
-		R6lDXpg5URKGOQg/mNXKE3YMA7c=
+		8AhPlfm+OiMmgHrn+x5tPMKKnvQ=
 		</data>
 		<key>Frameworks/libswiftos.dylib</key>
 		<data>
-		4XBIWDbRnbxEblY2Ly9JoXo9gDM=
+		HmKOzhR+k4bYElVLOt2q6w6P5Fk=
 		</data>
 		<key>Headers/TFScale-Swift.h</key>
 		<data>
-		dxG/73Vq/wLTU+M8XXVXJfv/8i4=
+		wiW7tLyQYHmj2PKh00fEhvyWQSo=
 		</data>
 		<key>Headers/TFScale.h</key>
 		<data>
@@ -70,7 +70,7 @@
 		</data>
 		<key>Headers/TFScaleResult.h</key>
 		<data>
-		9vIBwAyuGOwMn7xIVU0kH0yRlAk=
+		CJPe7AG1UzB6RigKtiaBQLV5sSY=
 		</data>
 		<key>Headers/VScaleManager.h</key>
 		<data>
@@ -182,23 +182,23 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		872DcdKDSfPmUrZvIEYhIGSeSJA=
+		ZBSvoP16EVjHvAV+isj7j42DXhg=
 		</data>
 		<key>Modules/TFScale.swiftmodule/arm.swiftdoc</key>
 		<data>
-		6wKegiGO6RnrRjchADyU2v06L58=
+		jYmUKe+ZSYN5dBSo7479OTn4m0g=
 		</data>
 		<key>Modules/TFScale.swiftmodule/arm.swiftmodule</key>
 		<data>
-		ljjhUIu9kjpdPPz8HcrhQUt2vVY=
+		fZ1pmOsJNOL5VChksx3/Tqx6mWU=
 		</data>
 		<key>Modules/TFScale.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		D0DVTmmh1Lqfk0wDYLwm0bFPYiA=
+		wybXDqAc7U8wX73YM/mJkN6ZCJw=
 		</data>
 		<key>Modules/TFScale.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		/kxaei+p0NXIaZIUB5iHl+A/kow=
+		jQDYuMaQSs9y+fm19UiNWZRghe0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -206,7 +206,7 @@
 		</data>
 		<key>libswiftRemoteMirror.dylib</key>
 		<data>
-		pU5q8j4U9pPxjTHJ3cd31Ji9QHY=
+		Q7r6Mnd2QDT8egsoLUcTIqg/QcU=
 		</data>
 	</dict>
 	<key>files2</key>
@@ -215,154 +215,154 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0vaQcwyaFdCOhTqN0S84qwllvQY=
+			YrFWRK7iIZktlxPZIUhL0Wl2a1o=
 			</data>
 			<key>hash2</key>
 			<data>
-			FXOSQstaZnoWCEE4qB/lzmmojdLmzfIBzWQCKmtEV34=
+			hS1W09qQ0kU3snuHF2z9GZz5IXAAg+5JV8hiPYxPvtk=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreFoundation.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			EOP6FPVYtrTRl6O69ABaUP4XZbI=
+			9GwvBuICw44+LknsyH/QCpgR8tU=
 			</data>
 			<key>hash2</key>
 			<data>
-			+cbC7IsC2wzKv/L8PUv0n1YJW4/wnvNDj4WFzU7EjEQ=
+			8mW/gF9gir+Ud/w3KxYJiLGv06T/kBSp9/S3xmvQEXc=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreGraphics.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Tm1xnZRz9dMLHuNIKQ+aIwFSq4c=
+			Hf23TimEvUiy5Bf19FC6hdKKboY=
 			</data>
 			<key>hash2</key>
 			<data>
-			Ut8OmxIn1qTm6XaoBzA2KKUWBxWPnNKnjmBsTnXWow4=
+			8WJBSaOn4lJ8X/R+RNhHe8BG1zlo0eLg6eVzKL2c7ik=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreImage.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			FQsrr1aK1o/eURiYTli4XphLgFk=
+			j5tQ4AMuJwXuzHCWhbmqi3Cf7rM=
 			</data>
 			<key>hash2</key>
 			<data>
-			V/j+eDxYZqRdmbfsi4JTDH1grQJ2EC5uytg/yvIRYfc=
+			6qWDIOM0hSAEc90EaFWsJCDfsDwfUAc7fluK9wcgEog=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftCoreLocation.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0QmMyLSzpBIoRsNz8KJM9zpjpZM=
+			LoXjenixIbTVMU9CUWWoSscGccQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			Pqe0fe2BeuWEnTIa1OngO0PnD1gRwiZdEM+sHQkvTR0=
+			W3tXpCAhpXg4om7cIGp/MdQJBtuGdDauqEY16qwZc2A=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDarwin.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4mbS1M76x5zOFcOgjH3G6KVveZQ=
+			5b2g5YuzOhCWFxn2BPwf0MCBG7M=
 			</data>
 			<key>hash2</key>
 			<data>
-			UT8w4a5do6XQMj7XMEvvPv/8sPGl31WEbzCfAUFVFKk=
+			zsLa6/TM2eWyq8U/bde5yBLl4jkFt+FkmAOiLfRRjAQ=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftDispatch.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			x7TagtDdWzuiOS+yWbRqc6PjSqs=
+			319EGzN7uHA+UzoIOP15lXQV8fU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Jmrw/PA/ypjXSQQc0SKW4JI8JvtDAm0G/YuMt6ExgnI=
+			mYpRB18iurHrWOE6Dxx+iVHzSdvN+0OQY3LVTfydybM=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftFoundation.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			czhWJnDXL6MA8U5Lya0q3w48rPI=
+			Pzs60LhztR7yqGkDnyIcS01IENM=
 			</data>
 			<key>hash2</key>
 			<data>
-			rvaxcqDM0gZ7rC40Cbm3gl0yzLDPeaIsZok6IyoOJeU=
+			sojCwR1ECV3NqNmNspBfPsFPoh2eaArELqGZ9jX9Z5o=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftMetal.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			YHil6kUpXFPVY4kT3hCR6Pslkq8=
+			CRFmfFCy8pzgkkpP6lHRaS5jxp8=
 			</data>
 			<key>hash2</key>
 			<data>
-			MqqBOfGH1P5N03yWTYKzU/m7SRNP5Bv/kqq2p5kjJNM=
+			zOle+U8E7BvF38DaQ9B7HS1TpCuaH6bg/ZgtUb8y9uQ=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftObjectiveC.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			GwBS38uog506isbVKEHpE/uUm5M=
+			8Uq68PzEBGbnfzGfuvdFEbCD024=
 			</data>
 			<key>hash2</key>
 			<data>
-			mFWcmyYUCEVZ5Eq1rBwoNyY91M3gon7bHKqVyHe0pC4=
+			2zqzA0TBGXY8iEMZD5PbZjmhQs+rd0VzoSpfZIo0OGY=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftQuartzCore.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			MiGMwMhdixvrEmTlVkO1naDXtU0=
+			JLtVQw9o0BP75ziBRySlhJaixvU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Hi8kFUCcs88JDBTnd+vheuNm737YZIVPvoVWh2X2S58=
+			FQpHJOBFSqb3A3mqMdAwwx4rkcB/hce/g+/rWSmHfxw=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftUIKit.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			R6lDXpg5URKGOQg/mNXKE3YMA7c=
+			8AhPlfm+OiMmgHrn+x5tPMKKnvQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			v9bsESOiAgb1cgu/4XufdT4GVxm9EWD459FV6zMVslA=
+			I/PmLmeWuBOyw+/6E3cAh9Jee+W29jrrOUnJ1ujSkIk=
 			</data>
 		</dict>
 		<key>Frameworks/libswiftos.dylib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			4XBIWDbRnbxEblY2Ly9JoXo9gDM=
+			HmKOzhR+k4bYElVLOt2q6w6P5Fk=
 			</data>
 			<key>hash2</key>
 			<data>
-			phNxF4BqemsJBVtozKz8UxOwLbKoMZolhzcz2w2xU58=
+			ZiAa9UzuX/Ids5sn4XOseYx+MZYuqbSI7r4ZtzvxZ4k=
 			</data>
 		</dict>
 		<key>Headers/TFScale-Swift.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			dxG/73Vq/wLTU+M8XXVXJfv/8i4=
+			wiW7tLyQYHmj2PKh00fEhvyWQSo=
 			</data>
 			<key>hash2</key>
 			<data>
-			RAcVWONkrehccc7L8ShwXLq3Lz7bmXfkV+vtlS9u7GE=
+			BYthbGW5nVWWTrG/PwYY5ah8gan1qaIG2Z9HvUMoe7A=
 			</data>
 		</dict>
 		<key>Headers/TFScale.h</key>
@@ -391,11 +391,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			9vIBwAyuGOwMn7xIVU0kH0yRlAk=
+			CJPe7AG1UzB6RigKtiaBQLV5sSY=
 			</data>
 			<key>hash2</key>
 			<data>
-			GGZKsIsmoYWUFmLqaqB3T1z/iegIaRM+TYp1ByfGJiY=
+			JFOZsxBp0Y34gMMxYiEOcP2ugFAIvT6eulAslUMipVA=
 			</data>
 		</dict>
 		<key>Headers/VScaleManager.h</key>
@@ -699,44 +699,44 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			6wKegiGO6RnrRjchADyU2v06L58=
+			jYmUKe+ZSYN5dBSo7479OTn4m0g=
 			</data>
 			<key>hash2</key>
 			<data>
-			UnmovAyM6YuWK/vaxxMOg13Jwgc7WzFKgeAHp5R34Hc=
+			qAOxHyjw4kOVX5tu5hnH+KiZGXCuE1em7AIv2xqMPpE=
 			</data>
 		</dict>
 		<key>Modules/TFScale.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			ljjhUIu9kjpdPPz8HcrhQUt2vVY=
+			fZ1pmOsJNOL5VChksx3/Tqx6mWU=
 			</data>
 			<key>hash2</key>
 			<data>
-			bPhZL0us8ul7Mvyj5hC44f3faf+dBD7esmz6Mj47Yn8=
+			T5bFTQWv1AzkTylft15w0wOW0RU3tj48DR8T/9O4sOs=
 			</data>
 		</dict>
 		<key>Modules/TFScale.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			D0DVTmmh1Lqfk0wDYLwm0bFPYiA=
+			wybXDqAc7U8wX73YM/mJkN6ZCJw=
 			</data>
 			<key>hash2</key>
 			<data>
-			gpHyDBm1RhfZB8HITqqS2jP2Tq7QsY6zuHx02rw2nF4=
+			Re83m6/rnfxTXODMaMlubLl+07NKN6yKKrLw0+LCwWc=
 			</data>
 		</dict>
 		<key>Modules/TFScale.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			/kxaei+p0NXIaZIUB5iHl+A/kow=
+			jQDYuMaQSs9y+fm19UiNWZRghe0=
 			</data>
 			<key>hash2</key>
 			<data>
-			o1ACkjhMl7y9BGWdfyBx1a8EQsW/ZQZMGUjeAHHh/xA=
+			/eKxIMcvId7gcxotJUf+L7hONJ5rf84uGnjWJvnz6qY=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -754,11 +754,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			pU5q8j4U9pPxjTHJ3cd31Ji9QHY=
+			Q7r6Mnd2QDT8egsoLUcTIqg/QcU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VYY3gKUO+l0Q5wKws5Mnwd5hLcbAw0b2d7elOdJZFdY=
+			8t2yMdJGJ6CeUqNDK7jQ9aZM8TQvAZmtGcSF+Mm8vXM=
 			</data>
 		</dict>
 	</dict>
