@@ -124,6 +124,10 @@ Copyright 2011 - 2018 umeng.com. All rights reserved.
 Copyright 2011 - 2018 umeng.com. All rights reserved.
 
 
+## VerifyCode
+
+©2017 dun.163.com
+
 ## YYModel
 
 The MIT License (MIT)
