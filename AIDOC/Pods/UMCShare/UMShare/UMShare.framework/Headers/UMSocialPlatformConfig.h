@@ -229,7 +229,7 @@ typedef void (^UMSocialGetUserInfoCompletionHandler)(id userInfoResponse,NSError
  */
 typedef NS_ENUM(NSInteger, UMSocialPlatformErrorType) {
     UMSocialPlatformErrorType_Unknow            = 2000,            // 未知错误
-    UMSocialPlatformErrorType_NotSupport        = 2001,            // 不支持（url scheme 没配置，或者没有配置-ObjC， 或则SDK版本不支持或则客户端版本不支持）
+    UMSocialPlatformErrorType_NotSupport        = 2001,            // 没有配置-ObjC， 或则SDK版本不支持或则客户端版本不支持
     UMSocialPlatformErrorType_AuthorizeFailed   = 2002,            // 授权失败
     UMSocialPlatformErrorType_ShareFailed       = 2003,            // 分享失败
     UMSocialPlatformErrorType_RequestForUserProfileFailed = 2004,  // 请求用户信息失败

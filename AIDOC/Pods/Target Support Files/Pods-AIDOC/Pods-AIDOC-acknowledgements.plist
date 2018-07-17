@@ -191,6 +191,16 @@ SOFTWARE.
 		</dict>
 		<dict>
 			<key>FooterText</key>
+			<string>©2017 dun.163.com</string>
+			<key>License</key>
+			<string>Free</string>
+			<key>Title</key>
+			<string>VerifyCode</string>
+			<key>Type</key>
+			<string>PSGroupSpecifier</string>
+		</dict>
+		<dict>
+			<key>FooterText</key>
 			<string>The MIT License (MIT)
 
 Copyright (c) 2015 ibireme &lt;ibireme@gmail.com&gt;
