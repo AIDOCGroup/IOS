@@ -47,6 +47,11 @@
 		092F1306200CE6140012C67E /* ZFRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E2200CE6140012C67E /* ZFRadarChart.m */; };
 		092F1307200CE6140012C67E /* ZFWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E5200CE6140012C67E /* ZFWave.m */; };
 		092F1308200CE6140012C67E /* ZFWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E7200CE6140012C67E /* ZFWaveChart.m */; };
+		094CB6A820FDBA6400972A67 /* PGBarChartDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB69E20FDBA6400972A67 /* PGBarChartDataModel.m */; };
+		094CB6A920FDBA6400972A67 /* PGBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB69F20FDBA6400972A67 /* PGBar.m */; };
+		094CB6AA20FDBA6400972A67 /* PGBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A020FDBA6400972A67 /* PGBox.m */; };
+		094CB6AB20FDBA6400972A67 /* PGBarChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A120FDBA6400972A67 /* PGBarChartLabel.m */; };
+		094CB6AC20FDBA6400972A67 /* PGBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A620FDBA6400972A67 /* PGBarChart.m */; };
 		09576B34200D537A009CDB3D /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09576B33200D537A009CDB3D /* HistoryViewController.m */; };
 		0962F1ED20034EA0006059CC /* NSDictionary+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F1DB20034EA0006059CC /* NSDictionary+category.m */; };
 		0962F1EE20034EA0006059CC /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F1DD20034EA0006059CC /* NSString+Category.m */; };
@@ -253,6 +258,16 @@
 		092F12E5200CE6140012C67E /* ZFWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWave.m; sourceTree = "<group>"; };
 		092F12E6200CE6140012C67E /* ZFWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFWaveChart.h; sourceTree = "<group>"; };
 		092F12E7200CE6140012C67E /* ZFWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWaveChart.m; sourceTree = "<group>"; };
+		094CB69E20FDBA6400972A67 /* PGBarChartDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChartDataModel.m; sourceTree = "<group>"; };
+		094CB69F20FDBA6400972A67 /* PGBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBar.m; sourceTree = "<group>"; };
+		094CB6A020FDBA6400972A67 /* PGBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBox.m; sourceTree = "<group>"; };
+		094CB6A120FDBA6400972A67 /* PGBarChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChartLabel.m; sourceTree = "<group>"; };
+		094CB6A220FDBA6400972A67 /* PGBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBarChart.h; sourceTree = "<group>"; };
+		094CB6A320FDBA6400972A67 /* PGBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBar.h; sourceTree = "<group>"; };
+		094CB6A420FDBA6400972A67 /* PGBarChartDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBarChartDataModel.h; sourceTree = "<group>"; };
+		094CB6A520FDBA6400972A67 /* PGBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBox.h; sourceTree = "<group>"; };
+		094CB6A620FDBA6400972A67 /* PGBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChart.m; sourceTree = "<group>"; };
+		094CB6A720FDBA6400972A67 /* PGBarChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBarChartLabel.h; sourceTree = "<group>"; };
 		09576B32200D537A009CDB3D /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		09576B33200D537A009CDB3D /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 		0962F1DA20034EA0006059CC /* NSDictionary+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+category.h"; sourceTree = "<group>"; };
@@ -749,6 +764,23 @@
 			path = ZFWaveChart;
 			sourceTree = "<group>";
 		};
+		094CB69D20FDBA6400972A67 /* PGBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				094CB69E20FDBA6400972A67 /* PGBarChartDataModel.m */,
+				094CB69F20FDBA6400972A67 /* PGBar.m */,
+				094CB6A020FDBA6400972A67 /* PGBox.m */,
+				094CB6A120FDBA6400972A67 /* PGBarChartLabel.m */,
+				094CB6A220FDBA6400972A67 /* PGBarChart.h */,
+				094CB6A320FDBA6400972A67 /* PGBar.h */,
+				094CB6A420FDBA6400972A67 /* PGBarChartDataModel.h */,
+				094CB6A520FDBA6400972A67 /* PGBox.h */,
+				094CB6A620FDBA6400972A67 /* PGBarChart.m */,
+				094CB6A720FDBA6400972A67 /* PGBarChartLabel.h */,
+			);
+			path = PGBarChart;
+			sourceTree = "<group>";
+		};
 		0962F1BF20034EA0006059CC /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -1058,6 +1090,7 @@
 		0962F1E520034EA0006059CC /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				094CB69D20FDBA6400972A67 /* PGBarChart */,
 				09BBDAC2200BD9E200BB2387 /* NSString+STRegex.h */,
 				09BBDAC3200BD9E200BB2387 /* NSString+STRegex.m */,
 				0962F1E620034EA0006059CC /* CodeTextField.h */,
@@ -1513,9 +1546,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				094CB6AA20FDBA6400972A67 /* PGBox.m in Sources */,
 				0962F1F120034EA0006059CC /* UIViewExt.m in Sources */,
 				09ABA92120052A9F00FB955D /* HelpViewController.m in Sources */,
 				092F12F7200CE6140012C67E /* ZFCirque.m in Sources */,
+				094CB6AB20FDBA6400972A67 /* PGBarChartLabel.m in Sources */,
 				092F12FF200CE6140012C67E /* ZFLine.m in Sources */,
 				09576B34200D537A009CDB3D /* HistoryViewController.m in Sources */,
 				09BD29A92005263000DEE680 /* UIButton+WebCache.m in Sources */,
@@ -1591,6 +1626,7 @@
 				092F12EB200CE6140012C67E /* UIColor+Zirkfied.m in Sources */,
 				0985113E200E732A008DA0EE /* SettingViewController.m in Sources */,
 				09851168200F7F83008DA0EE /* MoreNewsViewController.m in Sources */,
+				094CB6A920FDBA6400972A67 /* PGBar.m in Sources */,
 				092F12ED200CE6140012C67E /* ZFLabel.m in Sources */,
 				09BD29A12005263000DEE680 /* SDWebImageDownloader.m in Sources */,
 				09851153200EA819008DA0EE /* AboutUsViewController.m in Sources */,
@@ -1636,9 +1672,11 @@
 				0985115F200F6153008DA0EE /* FindModel.m in Sources */,
 				092F1300200CE6140012C67E /* ZFLineChart.m in Sources */,
 				0962F24620039F97006059CC /* TianyiViewController.m in Sources */,
+				094CB6A820FDBA6400972A67 /* PGBarChartDataModel.m in Sources */,
 				0962F20820035439006059CC /* LoginViewController.m in Sources */,
 				09BD29AA2005263000DEE680 /* UIImage+ForceDecode.m in Sources */,
 				092F12EC200CE6140012C67E /* UIView+Zirkfied.m in Sources */,
+				094CB6AC20FDBA6400972A67 /* PGBarChart.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
