@@ -52,6 +52,8 @@
 		094CB6AA20FDBA6400972A67 /* PGBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A020FDBA6400972A67 /* PGBox.m */; };
 		094CB6AB20FDBA6400972A67 /* PGBarChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A120FDBA6400972A67 /* PGBarChartLabel.m */; };
 		094CB6AC20FDBA6400972A67 /* PGBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A620FDBA6400972A67 /* PGBarChart.m */; };
+		094CB6B220FEDBD700972A67 /* UILabel+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6AE20FEDBD700972A67 /* UILabel+StringSize.m */; };
+		094CB6B320FEDBD700972A67 /* UILabel+NSMutableAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6B120FEDBD700972A67 /* UILabel+NSMutableAttributedString.m */; };
 		09576B34200D537A009CDB3D /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09576B33200D537A009CDB3D /* HistoryViewController.m */; };
 		0962F1ED20034EA0006059CC /* NSDictionary+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F1DB20034EA0006059CC /* NSDictionary+category.m */; };
 		0962F1EE20034EA0006059CC /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F1DD20034EA0006059CC /* NSString+Category.m */; };
@@ -268,6 +270,10 @@
 		094CB6A520FDBA6400972A67 /* PGBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBox.h; sourceTree = "<group>"; };
 		094CB6A620FDBA6400972A67 /* PGBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChart.m; sourceTree = "<group>"; };
 		094CB6A720FDBA6400972A67 /* PGBarChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBarChartLabel.h; sourceTree = "<group>"; };
+		094CB6AE20FEDBD700972A67 /* UILabel+StringSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+StringSize.m"; sourceTree = "<group>"; };
+		094CB6AF20FEDBD700972A67 /* UILabel+NSMutableAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NSMutableAttributedString.h"; sourceTree = "<group>"; };
+		094CB6B020FEDBD700972A67 /* UILabel+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StringSize.h"; sourceTree = "<group>"; };
+		094CB6B120FEDBD700972A67 /* UILabel+NSMutableAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NSMutableAttributedString.m"; sourceTree = "<group>"; };
 		09576B32200D537A009CDB3D /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		09576B33200D537A009CDB3D /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 		0962F1DA20034EA0006059CC /* NSDictionary+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+category.h"; sourceTree = "<group>"; };
@@ -781,6 +787,17 @@
 			path = PGBarChart;
 			sourceTree = "<group>";
 		};
+		094CB6AD20FEDBD700972A67 /* UILabel+Category1 */ = {
+			isa = PBXGroup;
+			children = (
+				094CB6AE20FEDBD700972A67 /* UILabel+StringSize.m */,
+				094CB6AF20FEDBD700972A67 /* UILabel+NSMutableAttributedString.h */,
+				094CB6B020FEDBD700972A67 /* UILabel+StringSize.h */,
+				094CB6B120FEDBD700972A67 /* UILabel+NSMutableAttributedString.m */,
+			);
+			path = "UILabel+Category1";
+			sourceTree = "<group>";
+		};
 		0962F1BF20034EA0006059CC /* Main */ = {
 			isa = PBXGroup;
 			children = (
@@ -1055,6 +1072,7 @@
 		0962F1D920034EA0006059CC /* Category(分类） */ = {
 			isa = PBXGroup;
 			children = (
+				094CB6AD20FEDBD700972A67 /* UILabel+Category1 */,
 				09851178200F8BAA008DA0EE /* Calendar */,
 				0962F23320035F9A006059CC /* ProgressHUD */,
 				0962F2132003575A006059CC /* MBProgressHUD */,
@@ -1598,6 +1616,7 @@
 				092F12F6200CE6140012C67E /* ZFBarChart.m in Sources */,
 				09851144200E8960008DA0EE /* ChangePhoneViewController.m in Sources */,
 				0985114D200E9CAC008DA0EE /* ChagePersonViewController.m in Sources */,
+				094CB6B220FEDBD700972A67 /* UILabel+StringSize.m in Sources */,
 				0962F22920035938006059CC /* StoreViewController.m in Sources */,
 				0962F1FE2003523E006059CC /* BaseModel.m in Sources */,
 				1D6CB6AE206CD98D007BA353 /* WMScrollView.m in Sources */,
@@ -1637,6 +1656,7 @@
 				0985116E200F89E3008DA0EE /* SignInViewController.m in Sources */,
 				09BD29AC2005263000DEE680 /* UIImage+MultiFormat.m in Sources */,
 				09BD29AB2005263000DEE680 /* UIImage+GIF.m in Sources */,
+				094CB6B320FEDBD700972A67 /* UILabel+NSMutableAttributedString.m in Sources */,
 				09851156200F2C11008DA0EE /* MeCell.m in Sources */,
 				092F12EE200CE6140012C67E /* ZFPopoverLabel.m in Sources */,
 				092F1305200CE6140012C67E /* ZFRadar.m in Sources */,
