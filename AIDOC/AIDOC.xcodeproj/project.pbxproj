@@ -109,6 +109,11 @@
 		09851188200F8BAA008DA0EE /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851180200F8BAA008DA0EE /* UIColor+expanded.m */; };
 		09851189200F8BAA008DA0EE /* UIView+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851182200F8BAA008DA0EE /* UIView+convenience.m */; };
 		0985118A200F8BAA008DA0EE /* VRGCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851184200F8BAA008DA0EE /* VRGCalendarView.m */; };
+		0994545821006EB700300E03 /* YWFeedbackFMWK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0994545521006EB700300E03 /* YWFeedbackFMWK.framework */; };
+		0994545921006EB700300E03 /* BCHybridWebViewFMWK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0994545621006EB700300E03 /* BCHybridWebViewFMWK.framework */; };
+		0994545A21006EB700300E03 /* BCConnectorBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0994545721006EB700300E03 /* BCConnectorBundle.framework */; };
+		0994545D21006F3600300E03 /* address的副本.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0994545B21006F3600300E03 /* address的副本.plist */; };
+		0994545E21006F3600300E03 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0994545C21006F3600300E03 /* address.plist */; };
 		09ABA92120052A9F00FB955D /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ABA92020052A9F00FB955D /* HelpViewController.m */; };
 		09ABA92520052ACE00FB955D /* KIImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ABA92420052ACE00FB955D /* KIImagePager.m */; };
 		09BBDAC4200BD9E200BB2387 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDAC3200BD9E200BB2387 /* NSString+STRegex.m */; };
@@ -387,6 +392,11 @@
 		09851182200F8BAA008DA0EE /* UIView+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+convenience.m"; sourceTree = "<group>"; };
 		09851183200F8BAA008DA0EE /* VRGCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRGCalendarView.h; sourceTree = "<group>"; };
 		09851184200F8BAA008DA0EE /* VRGCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRGCalendarView.m; sourceTree = "<group>"; };
+		0994545521006EB700300E03 /* YWFeedbackFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YWFeedbackFMWK.framework; sourceTree = "<group>"; };
+		0994545621006EB700300E03 /* BCHybridWebViewFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BCHybridWebViewFMWK.framework; sourceTree = "<group>"; };
+		0994545721006EB700300E03 /* BCConnectorBundle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BCConnectorBundle.framework; sourceTree = "<group>"; };
+		0994545B21006F3600300E03 /* address的副本.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "address的副本.plist"; sourceTree = "<group>"; };
+		0994545C21006F3600300E03 /* address.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = address.plist; sourceTree = "<group>"; };
 		09ABA91F20052A9F00FB955D /* HelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelpViewController.h; sourceTree = "<group>"; };
 		09ABA92020052A9F00FB955D /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
 		09ABA92320052ACE00FB955D /* KIImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImagePager.h; sourceTree = "<group>"; };
@@ -486,6 +496,8 @@
 			files = (
 				1DFEC7F32061321800B44B70 /* BosmaBleSDK.framework in Frameworks */,
 				1DFEC7F52061321800B44B70 /* Milky.framework in Frameworks */,
+				0994545821006EB700300E03 /* YWFeedbackFMWK.framework in Frameworks */,
+				0994545921006EB700300E03 /* BCHybridWebViewFMWK.framework in Frameworks */,
 				1DFEC7F22061321800B44B70 /* ICTBleSDK.framework in Frameworks */,
 				2F9C9EF3F9DAB85828D69292 /* libPods-AIDOC.a in Frameworks */,
 				1DFEC7EF2061321800B44B70 /* MiaoHealthConnect.framework in Frameworks */,
@@ -495,6 +507,7 @@
 				1DFEC7F42061321800B44B70 /* UTESmartBandApi.framework in Frameworks */,
 				1DFEC7F12061321800B44B70 /* TFScale.framework in Frameworks */,
 				1DFEC7F62061321800B44B70 /* MIOGlobal.framework in Frameworks */,
+				0994545A21006EB700300E03 /* BCConnectorBundle.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1063,6 +1076,9 @@
 		0962F1D820034EA0006059CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0994545C21006F3600300E03 /* address.plist */,
+				0994545B21006F3600300E03 /* address的副本.plist */,
+				0994545421006EB700300E03 /* 用户反馈 */,
 				1DD39B26207249E300707A1A /* FMDB */,
 				09BD2948200523B400DEE680 /* lib */,
 				0962F1D920034EA0006059CC /* Category(分类） */,
@@ -1207,6 +1223,16 @@
 				09851184200F8BAA008DA0EE /* VRGCalendarView.m */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		0994545421006EB700300E03 /* 用户反馈 */ = {
+			isa = PBXGroup;
+			children = (
+				0994545521006EB700300E03 /* YWFeedbackFMWK.framework */,
+				0994545621006EB700300E03 /* BCHybridWebViewFMWK.framework */,
+				0994545721006EB700300E03 /* BCConnectorBundle.framework */,
+			);
+			path = "用户反馈";
 			sourceTree = "<group>";
 		};
 		09ABA92220052ACE00FB955D /* KIImagePager */ = {
@@ -1483,8 +1509,10 @@
 			files = (
 				0962F23720035F9A006059CC /* ProgressHUD.bundle in Resources */,
 				0905A7C720033FA000480448 /* LaunchScreen.storyboard in Resources */,
+				0994545D21006F3600300E03 /* address的副本.plist in Resources */,
 				0962F23A2003683C006059CC /* Assets.xcassets in Resources */,
 				0905A7C220033FA000480448 /* Main.storyboard in Resources */,
+				0994545E21006F3600300E03 /* address.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1864,6 +1892,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AIDOC/MiaoHealthSDK",
+					"$(PROJECT_DIR)/AIDOC/Common/用户反馈",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AIDOC/PrefixHeader.pch";
 				INFOPLIST_FILE = AIDOC/Info.plist;
@@ -1885,6 +1914,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/AIDOC/MiaoHealthSDK",
+					"$(PROJECT_DIR)/AIDOC/Common/用户反馈",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AIDOC/PrefixHeader.pch";
 				INFOPLIST_FILE = AIDOC/Info.plist;
