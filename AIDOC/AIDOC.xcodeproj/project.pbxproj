@@ -19,6 +19,18 @@
 		091CF262210841A200DCBFB4 /* EmojiPictographs.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF258210841A200DCBFB4 /* EmojiPictographs.m */; };
 		091CF263210841A200DCBFB4 /* EmojiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF259210841A200DCBFB4 /* EmojiTransport.m */; };
 		091CF264210841A200DCBFB4 /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF25A210841A200DCBFB4 /* Emoji.m */; };
+		091CF27E2108953700DCBFB4 /* PGBarChartDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF2662108953600DCBFB4 /* PGBarChartDataModel.m */; };
+		091CF27F2108953700DCBFB4 /* PGBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF2672108953600DCBFB4 /* PGBar.m */; };
+		091CF2802108953700DCBFB4 /* PGBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF2682108953600DCBFB4 /* PGBox.m */; };
+		091CF2812108953700DCBFB4 /* PGBarChartLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF2692108953600DCBFB4 /* PGBarChartLabel.m */; };
+		091CF2822108953700DCBFB4 /* PGBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF26E2108953600DCBFB4 /* PGBarChart.m */; };
+		091CF2832108953700DCBFB4 /* EMAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF2722108953600DCBFB4 /* EMAlertView.m */; };
+		091CF2842108953700DCBFB4 /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091CF2742108953600DCBFB4 /* Parse.framework */; };
+		091CF2852108953700DCBFB4 /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 091CF2752108953600DCBFB4 /* Bolts.framework */; };
+		091CF2862108953700DCBFB4 /* sr_refresh.png in Resources */ = {isa = PBXBuildFile; fileRef = 091CF2772108953600DCBFB4 /* sr_refresh.png */; };
+		091CF2872108953700DCBFB4 /* SRRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF2792108953600DCBFB4 /* SRRefreshView.m */; };
+		091CF2882108953700DCBFB4 /* SRSlimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF27A2108953600DCBFB4 /* SRSlimeView.m */; };
+		091CF2892108953700DCBFB4 /* sr_refresh@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 091CF27C2108953600DCBFB4 /* sr_refresh@2X.png */; };
 		092F12E8200CE6140012C67E /* NSNumber+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F1298200CE6140012C67E /* NSNumber+Zirkfied.m */; };
 		092F12E9200CE6140012C67E /* NSString+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F129A200CE6140012C67E /* NSString+Zirkfied.m */; };
 		092F12EA200CE6140012C67E /* UIBezierPath+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F129C200CE6140012C67E /* UIBezierPath+Zirkfied.m */; };
@@ -213,6 +225,27 @@
 		091CF25D210841A200DCBFB4 /* EmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiEmoticons.h; sourceTree = "<group>"; };
 		091CF25E210841A200DCBFB4 /* EmojiTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiTransport.h; sourceTree = "<group>"; };
 		091CF25F210841A200DCBFB4 /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoji.h; sourceTree = "<group>"; };
+		091CF2662108953600DCBFB4 /* PGBarChartDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChartDataModel.m; sourceTree = "<group>"; };
+		091CF2672108953600DCBFB4 /* PGBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBar.m; sourceTree = "<group>"; };
+		091CF2682108953600DCBFB4 /* PGBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBox.m; sourceTree = "<group>"; };
+		091CF2692108953600DCBFB4 /* PGBarChartLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChartLabel.m; sourceTree = "<group>"; };
+		091CF26A2108953600DCBFB4 /* PGBarChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBarChart.h; sourceTree = "<group>"; };
+		091CF26B2108953600DCBFB4 /* PGBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBar.h; sourceTree = "<group>"; };
+		091CF26C2108953600DCBFB4 /* PGBarChartDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBarChartDataModel.h; sourceTree = "<group>"; };
+		091CF26D2108953600DCBFB4 /* PGBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBox.h; sourceTree = "<group>"; };
+		091CF26E2108953600DCBFB4 /* PGBarChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChart.m; sourceTree = "<group>"; };
+		091CF26F2108953600DCBFB4 /* PGBarChartLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PGBarChartLabel.h; sourceTree = "<group>"; };
+		091CF2712108953600DCBFB4 /* EMAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EMAlertView.h; sourceTree = "<group>"; };
+		091CF2722108953600DCBFB4 /* EMAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EMAlertView.m; sourceTree = "<group>"; };
+		091CF2742108953600DCBFB4 /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		091CF2752108953600DCBFB4 /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		091CF2772108953600DCBFB4 /* sr_refresh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sr_refresh.png; sourceTree = "<group>"; };
+		091CF2782108953600DCBFB4 /* SRSlimeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRSlimeView.h; sourceTree = "<group>"; };
+		091CF2792108953600DCBFB4 /* SRRefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRRefreshView.m; sourceTree = "<group>"; };
+		091CF27A2108953600DCBFB4 /* SRSlimeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SRSlimeView.m; sourceTree = "<group>"; };
+		091CF27B2108953600DCBFB4 /* SRDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDefine.h; sourceTree = "<group>"; };
+		091CF27C2108953600DCBFB4 /* sr_refresh@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sr_refresh@2X.png"; sourceTree = "<group>"; };
+		091CF27D2108953600DCBFB4 /* SRRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRefreshView.h; sourceTree = "<group>"; };
 		092F1297200CE6140012C67E /* NSNumber+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Zirkfied.h"; sourceTree = "<group>"; };
 		092F1298200CE6140012C67E /* NSNumber+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Zirkfied.m"; sourceTree = "<group>"; };
 		092F1299200CE6140012C67E /* NSString+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Zirkfied.h"; sourceTree = "<group>"; };
@@ -513,6 +546,7 @@
 				1DFEC7F52061321800B44B70 /* Milky.framework in Frameworks */,
 				0994545821006EB700300E03 /* YWFeedbackFMWK.framework in Frameworks */,
 				0994545921006EB700300E03 /* BCHybridWebViewFMWK.framework in Frameworks */,
+				091CF2842108953700DCBFB4 /* Parse.framework in Frameworks */,
 				1DFEC7F22061321800B44B70 /* ICTBleSDK.framework in Frameworks */,
 				2F9C9EF3F9DAB85828D69292 /* libPods-AIDOC.a in Frameworks */,
 				1DFEC7EF2061321800B44B70 /* MiaoHealthConnect.framework in Frameworks */,
@@ -523,6 +557,7 @@
 				1DFEC7F12061321800B44B70 /* TFScale.framework in Frameworks */,
 				1DFEC7F62061321800B44B70 /* MIOGlobal.framework in Frameworks */,
 				0994545A21006EB700300E03 /* BCConnectorBundle.framework in Frameworks */,
+				091CF2852108953700DCBFB4 /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -629,6 +664,59 @@
 				091CF25F210841A200DCBFB4 /* Emoji.h */,
 			);
 			path = Emogi;
+			sourceTree = "<group>";
+		};
+		091CF2652108953600DCBFB4 /* PGBarChart */ = {
+			isa = PBXGroup;
+			children = (
+				091CF2662108953600DCBFB4 /* PGBarChartDataModel.m */,
+				091CF2672108953600DCBFB4 /* PGBar.m */,
+				091CF2682108953600DCBFB4 /* PGBox.m */,
+				091CF2692108953600DCBFB4 /* PGBarChartLabel.m */,
+				091CF26A2108953600DCBFB4 /* PGBarChart.h */,
+				091CF26B2108953600DCBFB4 /* PGBar.h */,
+				091CF26C2108953600DCBFB4 /* PGBarChartDataModel.h */,
+				091CF26D2108953600DCBFB4 /* PGBox.h */,
+				091CF26E2108953600DCBFB4 /* PGBarChart.m */,
+				091CF26F2108953600DCBFB4 /* PGBarChartLabel.h */,
+			);
+			name = PGBarChart;
+			path = Tool/PGBarChart;
+			sourceTree = "<group>";
+		};
+		091CF2702108953600DCBFB4 /* EMAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				091CF2712108953600DCBFB4 /* EMAlertView.h */,
+				091CF2722108953600DCBFB4 /* EMAlertView.m */,
+			);
+			name = EMAlertView;
+			path = Tool/EMAlertView;
+			sourceTree = "<group>";
+		};
+		091CF2732108953600DCBFB4 /* Parse */ = {
+			isa = PBXGroup;
+			children = (
+				091CF2742108953600DCBFB4 /* Parse.framework */,
+				091CF2752108953600DCBFB4 /* Bolts.framework */,
+			);
+			name = Parse;
+			path = Tool/Parse;
+			sourceTree = "<group>";
+		};
+		091CF2762108953600DCBFB4 /* SlimeRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				091CF2772108953600DCBFB4 /* sr_refresh.png */,
+				091CF2782108953600DCBFB4 /* SRSlimeView.h */,
+				091CF2792108953600DCBFB4 /* SRRefreshView.m */,
+				091CF27A2108953600DCBFB4 /* SRSlimeView.m */,
+				091CF27B2108953600DCBFB4 /* SRDefine.h */,
+				091CF27C2108953600DCBFB4 /* sr_refresh@2X.png */,
+				091CF27D2108953600DCBFB4 /* SRRefreshView.h */,
+			);
+			name = SlimeRefresh;
+			path = Tool/SlimeRefresh;
 			sourceTree = "<group>";
 		};
 		092F1295200CE6140012C67E /* ZFChart */ = {
@@ -1108,6 +1196,10 @@
 		0962F1D820034EA0006059CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				091CF2702108953600DCBFB4 /* EMAlertView */,
+				091CF2732108953600DCBFB4 /* Parse */,
+				091CF2652108953600DCBFB4 /* PGBarChart */,
+				091CF2762108953600DCBFB4 /* SlimeRefresh */,
 				091CF255210841A200DCBFB4 /* Emogi */,
 				0994545C21006F3600300E03 /* address.plist */,
 				0994545B21006F3600300E03 /* address的副本.plist */,
@@ -1540,6 +1632,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				091CF2862108953700DCBFB4 /* sr_refresh.png in Resources */,
+				091CF2892108953700DCBFB4 /* sr_refresh@2X.png in Resources */,
 				0962F23720035F9A006059CC /* ProgressHUD.bundle in Resources */,
 				0905A7C720033FA000480448 /* LaunchScreen.storyboard in Resources */,
 				0994545D21006F3600300E03 /* address的副本.plist in Resources */,
@@ -1656,6 +1750,7 @@
 				0962F1F020034EA0006059CC /* UIView+ViewController.m in Sources */,
 				0962F23220035E78006059CC /* ZKLoginTextField.m in Sources */,
 				0962F21D2003584B006059CC /* MainViewController.m in Sources */,
+				091CF2802108953700DCBFB4 /* PGBox.m in Sources */,
 				092F12F0200CE6140012C67E /* ZFYAxisLine.m in Sources */,
 				09BD299D2005263000DEE680 /* SDWebImageCoder.m in Sources */,
 				09851171200F8A51008DA0EE /* ExampleViewController.m in Sources */,
@@ -1698,12 +1793,14 @@
 				092F1308200CE6140012C67E /* ZFWaveChart.m in Sources */,
 				09851159200F4C24008DA0EE /* SpoilAdviseViewController.m in Sources */,
 				0985114A200E9A7F008DA0EE /* MeDetailViewController.m in Sources */,
+				091CF2872108953700DCBFB4 /* SRRefreshView.m in Sources */,
 				09851189200F8BAA008DA0EE /* UIView+convenience.m in Sources */,
 				091CF262210841A200DCBFB4 /* EmojiPictographs.m in Sources */,
 				09BD29A02005263000DEE680 /* SDWebImageCompat.m in Sources */,
 				09BD299C2005263000DEE680 /* SDImageCacheConfig.m in Sources */,
 				09BD29A42005263000DEE680 /* SDWebImageGIFCoder.m in Sources */,
 				09BD29AE2005263000DEE680 /* UIImageView+HighlightedWebCache.m in Sources */,
+				091CF2822108953700DCBFB4 /* PGBarChart.m in Sources */,
 				0962F2262003592D006059CC /* FindViewController.m in Sources */,
 				092F12F2200CE6140012C67E /* ZFGradientAttribute.m in Sources */,
 				09BD29A22005263000DEE680 /* SDWebImageDownloaderOperation.m in Sources */,
@@ -1730,6 +1827,7 @@
 				09BD29AD2005263000DEE680 /* UIImage+WebP.m in Sources */,
 				1D6CB6B0206CD98D007BA353 /* WMProgressView.m in Sources */,
 				0962F23820035F9A006059CC /* ProgressHUD.m in Sources */,
+				091CF2812108953700DCBFB4 /* PGBarChartLabel.m in Sources */,
 				092F12E9200CE6140012C67E /* NSString+Zirkfied.m in Sources */,
 				0962F243200396D2006059CC /* ServiceProViewController.m in Sources */,
 				0985116E200F89E3008DA0EE /* SignInViewController.m in Sources */,
@@ -1741,18 +1839,22 @@
 				092F1305200CE6140012C67E /* ZFRadar.m in Sources */,
 				0962F205200352B8006059CC /* UserInfoModel.m in Sources */,
 				0985115C200F5E65008DA0EE /* FindCell.m in Sources */,
+				091CF27E2108953700DCBFB4 /* PGBarChartDataModel.m in Sources */,
 				09BD29A62005263000DEE680 /* SDWebImageManager.m in Sources */,
 				0962F24020038A86006059CC /* UIImage+Category.m in Sources */,
 				09851141200E757E008DA0EE /* SettingCell.m in Sources */,
 				0905A7B920033FA000480448 /* main.m in Sources */,
 				09BD29992005263000DEE680 /* NSData+ImageContentType.m in Sources */,
+				091CF27F2108953700DCBFB4 /* PGBar.m in Sources */,
 				09BD299F2005263000DEE680 /* SDWebImageCodersManager.m in Sources */,
 				092F12F3200CE6140012C67E /* ZFConst.m in Sources */,
 				09BD299A2005263000DEE680 /* NSImage+WebCache.m in Sources */,
+				091CF2882108953700DCBFB4 /* SRSlimeView.m in Sources */,
 				1D6CB6AD206CD98D007BA353 /* WMMenuItem.m in Sources */,
 				091CF264210841A200DCBFB4 /* Emoji.m in Sources */,
 				0962F1F320034EA0006059CC /* CommonFunc.m in Sources */,
 				092F12F8200CE6140012C67E /* ZFCirqueChart.m in Sources */,
+				091CF2832108953700DCBFB4 /* EMAlertView.m in Sources */,
 				09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */,
 				09851150200EA7F6008DA0EE /* HelpCenterViewController.m in Sources */,
 				0962F1F220034EA0006059CC /* CodeTextField.m in Sources */,
@@ -1931,6 +2033,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AIDOC/MiaoHealthSDK",
 					"$(PROJECT_DIR)/AIDOC/Common/用户反馈",
+					"$(PROJECT_DIR)/AIDOC/Common/Tool/Parse",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AIDOC/PrefixHeader.pch";
 				INFOPLIST_FILE = AIDOC/Info.plist;
@@ -1953,6 +2056,7 @@
 					"$(inherited)",
 					"$(PROJECT_DIR)/AIDOC/MiaoHealthSDK",
 					"$(PROJECT_DIR)/AIDOC/Common/用户反馈",
+					"$(PROJECT_DIR)/AIDOC/Common/Tool/Parse",
 				);
 				GCC_PREFIX_HEADER = "$(SRCROOT)/AIDOC/PrefixHeader.pch";
 				INFOPLIST_FILE = AIDOC/Info.plist;
