@@ -14,6 +14,11 @@
 		0905A7C720033FA000480448 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0905A7C520033FA000480448 /* LaunchScreen.storyboard */; };
 		0905A7D220033FA000480448 /* AIDOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905A7D120033FA000480448 /* AIDOCTests.m */; };
 		0905A7DD20033FA000480448 /* AIDOCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0905A7DC20033FA000480448 /* AIDOCUITests.m */; };
+		091CF260210841A200DCBFB4 /* EmojiMapSymbols.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF256210841A200DCBFB4 /* EmojiMapSymbols.m */; };
+		091CF261210841A200DCBFB4 /* EmojiEmoticons.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF257210841A200DCBFB4 /* EmojiEmoticons.m */; };
+		091CF262210841A200DCBFB4 /* EmojiPictographs.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF258210841A200DCBFB4 /* EmojiPictographs.m */; };
+		091CF263210841A200DCBFB4 /* EmojiTransport.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF259210841A200DCBFB4 /* EmojiTransport.m */; };
+		091CF264210841A200DCBFB4 /* Emoji.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF25A210841A200DCBFB4 /* Emoji.m */; };
 		092F12E8200CE6140012C67E /* NSNumber+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F1298200CE6140012C67E /* NSNumber+Zirkfied.m */; };
 		092F12E9200CE6140012C67E /* NSString+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F129A200CE6140012C67E /* NSString+Zirkfied.m */; };
 		092F12EA200CE6140012C67E /* UIBezierPath+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F129C200CE6140012C67E /* UIBezierPath+Zirkfied.m */; };
@@ -198,6 +203,16 @@
 		0905A7D820033FA000480448 /* AIDOCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AIDOCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0905A7DC20033FA000480448 /* AIDOCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AIDOCUITests.m; sourceTree = "<group>"; };
 		0905A7DE20033FA000480448 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		091CF256210841A200DCBFB4 /* EmojiMapSymbols.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiMapSymbols.m; sourceTree = "<group>"; };
+		091CF257210841A200DCBFB4 /* EmojiEmoticons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiEmoticons.m; sourceTree = "<group>"; };
+		091CF258210841A200DCBFB4 /* EmojiPictographs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiPictographs.m; sourceTree = "<group>"; };
+		091CF259210841A200DCBFB4 /* EmojiTransport.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EmojiTransport.m; sourceTree = "<group>"; };
+		091CF25A210841A200DCBFB4 /* Emoji.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Emoji.m; sourceTree = "<group>"; };
+		091CF25B210841A200DCBFB4 /* EmojiMapSymbols.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiMapSymbols.h; sourceTree = "<group>"; };
+		091CF25C210841A200DCBFB4 /* EmojiPictographs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiPictographs.h; sourceTree = "<group>"; };
+		091CF25D210841A200DCBFB4 /* EmojiEmoticons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiEmoticons.h; sourceTree = "<group>"; };
+		091CF25E210841A200DCBFB4 /* EmojiTransport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EmojiTransport.h; sourceTree = "<group>"; };
+		091CF25F210841A200DCBFB4 /* Emoji.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Emoji.h; sourceTree = "<group>"; };
 		092F1297200CE6140012C67E /* NSNumber+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Zirkfied.h"; sourceTree = "<group>"; };
 		092F1298200CE6140012C67E /* NSNumber+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Zirkfied.m"; sourceTree = "<group>"; };
 		092F1299200CE6140012C67E /* NSString+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Zirkfied.h"; sourceTree = "<group>"; };
@@ -597,6 +612,23 @@
 				0905A7DE20033FA000480448 /* Info.plist */,
 			);
 			path = AIDOCUITests;
+			sourceTree = "<group>";
+		};
+		091CF255210841A200DCBFB4 /* Emogi */ = {
+			isa = PBXGroup;
+			children = (
+				091CF256210841A200DCBFB4 /* EmojiMapSymbols.m */,
+				091CF257210841A200DCBFB4 /* EmojiEmoticons.m */,
+				091CF258210841A200DCBFB4 /* EmojiPictographs.m */,
+				091CF259210841A200DCBFB4 /* EmojiTransport.m */,
+				091CF25A210841A200DCBFB4 /* Emoji.m */,
+				091CF25B210841A200DCBFB4 /* EmojiMapSymbols.h */,
+				091CF25C210841A200DCBFB4 /* EmojiPictographs.h */,
+				091CF25D210841A200DCBFB4 /* EmojiEmoticons.h */,
+				091CF25E210841A200DCBFB4 /* EmojiTransport.h */,
+				091CF25F210841A200DCBFB4 /* Emoji.h */,
+			);
+			path = Emogi;
 			sourceTree = "<group>";
 		};
 		092F1295200CE6140012C67E /* ZFChart */ = {
@@ -1076,6 +1108,7 @@
 		0962F1D820034EA0006059CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				091CF255210841A200DCBFB4 /* Emogi */,
 				0994545C21006F3600300E03 /* address.plist */,
 				0994545B21006F3600300E03 /* address的副本.plist */,
 				0994545421006EB700300E03 /* 用户反馈 */,
@@ -1666,6 +1699,7 @@
 				09851159200F4C24008DA0EE /* SpoilAdviseViewController.m in Sources */,
 				0985114A200E9A7F008DA0EE /* MeDetailViewController.m in Sources */,
 				09851189200F8BAA008DA0EE /* UIView+convenience.m in Sources */,
+				091CF262210841A200DCBFB4 /* EmojiPictographs.m in Sources */,
 				09BD29A02005263000DEE680 /* SDWebImageCompat.m in Sources */,
 				09BD299C2005263000DEE680 /* SDImageCacheConfig.m in Sources */,
 				09BD29A42005263000DEE680 /* SDWebImageGIFCoder.m in Sources */,
@@ -1678,7 +1712,9 @@
 				09851187200F8BAA008DA0EE /* NSMutableArray+convenience.m in Sources */,
 				1D6CB6AC206CD98D007BA353 /* WMPageController.m in Sources */,
 				0962F22F20035D09006059CC /* UIAlertTool.m in Sources */,
+				091CF260210841A200DCBFB4 /* EmojiMapSymbols.m in Sources */,
 				092F12F9200CE6140012C67E /* ZFGenericAxis.m in Sources */,
+				091CF263210841A200DCBFB4 /* EmojiTransport.m in Sources */,
 				0962F20F20035636006059CC /* BaseNavigationController.m in Sources */,
 				09ABA92520052ACE00FB955D /* KIImagePager.m in Sources */,
 				092F12EF200CE6140012C67E /* ZFXAxisLine.m in Sources */,
@@ -1690,6 +1726,7 @@
 				09BD29A12005263000DEE680 /* SDWebImageDownloader.m in Sources */,
 				09851153200EA819008DA0EE /* AboutUsViewController.m in Sources */,
 				092F1301200CE6140012C67E /* ZFPie.m in Sources */,
+				091CF261210841A200DCBFB4 /* EmojiEmoticons.m in Sources */,
 				09BD29AD2005263000DEE680 /* UIImage+WebP.m in Sources */,
 				1D6CB6B0206CD98D007BA353 /* WMProgressView.m in Sources */,
 				0962F23820035F9A006059CC /* ProgressHUD.m in Sources */,
@@ -1713,6 +1750,7 @@
 				092F12F3200CE6140012C67E /* ZFConst.m in Sources */,
 				09BD299A2005263000DEE680 /* NSImage+WebCache.m in Sources */,
 				1D6CB6AD206CD98D007BA353 /* WMMenuItem.m in Sources */,
+				091CF264210841A200DCBFB4 /* Emoji.m in Sources */,
 				0962F1F320034EA0006059CC /* CommonFunc.m in Sources */,
 				092F12F8200CE6140012C67E /* ZFCirqueChart.m in Sources */,
 				09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */,
