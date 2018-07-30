@@ -4,12 +4,14 @@ pod 'Masonry'
 
 #友盟：基础库，统计 SDK，错误分析 SDK，分享 SDK
 #基础库
+pod 'UMCPush'
 pod 'UMCCommon'
 pod 'UMCSecurityPlugins'
 #统计 SDK
 pod 'UMCAnalytics'
 #错误分析 SDK
 pod 'UMCErrorCatch'
+
 #分享 SDK
 # U-Share SDK UI模块（分享面板，建议添加）
 pod 'UMCShare/UI'
@@ -32,7 +34,17 @@ pod 'IQKeyboardManager', '~> 3.2.0.3’
 pod 'SVProgressHUD'
 #JSON数据和Model转换
 pod 'YYModel'
-
+#MJRefresh
+pod 'MJRefresh', '~> 3.1.12'
+#sqlit3数据封装库
+pod 'FMDB'
+#iOS最全的日期选择器//https://github.com/xiaozhuxiong121/PGDatePicker
+pod 'PGDatePicker'
+#验证码<网易云盾>
+pod 'VerifyCode'
+#微信支付
+#pod 'WechatOpenSDK'
+#有赞云
+pod 'YZAppSDK'
 
 end
-
