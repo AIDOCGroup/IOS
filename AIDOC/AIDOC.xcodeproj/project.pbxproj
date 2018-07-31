@@ -71,6 +71,15 @@
 		094CB6AC20FDBA6400972A67 /* PGBarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A620FDBA6400972A67 /* PGBarChart.m */; };
 		094CB6B220FEDBD700972A67 /* UILabel+StringSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6AE20FEDBD700972A67 /* UILabel+StringSize.m */; };
 		094CB6B320FEDBD700972A67 /* UILabel+NSMutableAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6B120FEDBD700972A67 /* UILabel+NSMutableAttributedString.m */; };
+		0951B1FF2110929F009FB4ED /* SolveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1EB2110929F009FB4ED /* SolveViewController.m */; };
+		0951B2002110929F009FB4ED /* SolveCallViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1EC2110929F009FB4ED /* SolveCallViewController.m */; };
+		0951B2012110929F009FB4ED /* SolveDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1F02110929F009FB4ED /* SolveDetailViewController.m */; };
+		0951B2022110929F009FB4ED /* SolveModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1F22110929F009FB4ED /* SolveModel.m */; };
+		0951B2032110929F009FB4ED /* EquipmentModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1F32110929F009FB4ED /* EquipmentModel.m */; };
+		0951B2042110929F009FB4ED /* AlarmModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1F72110929F009FB4ED /* AlarmModel.m */; };
+		0951B2052110929F009FB4ED /* SolveMapCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1F92110929F009FB4ED /* SolveMapCell.m */; };
+		0951B2062110929F009FB4ED /* SolVeMapVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1FA2110929F009FB4ED /* SolVeMapVIew.m */; };
+		0951B2072110929F009FB4ED /* AlarmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1FB2110929F009FB4ED /* AlarmCell.m */; };
 		09576B34200D537A009CDB3D /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09576B33200D537A009CDB3D /* HistoryViewController.m */; };
 		0962F1ED20034EA0006059CC /* NSDictionary+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F1DB20034EA0006059CC /* NSDictionary+category.m */; };
 		0962F1EE20034EA0006059CC /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F1DD20034EA0006059CC /* NSString+Category.m */; };
@@ -328,6 +337,24 @@
 		094CB6AF20FEDBD700972A67 /* UILabel+NSMutableAttributedString.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+NSMutableAttributedString.h"; sourceTree = "<group>"; };
 		094CB6B020FEDBD700972A67 /* UILabel+StringSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+StringSize.h"; sourceTree = "<group>"; };
 		094CB6B120FEDBD700972A67 /* UILabel+NSMutableAttributedString.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+NSMutableAttributedString.m"; sourceTree = "<group>"; };
+		0951B1EB2110929F009FB4ED /* SolveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolveViewController.m; sourceTree = "<group>"; };
+		0951B1EC2110929F009FB4ED /* SolveCallViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolveCallViewController.m; sourceTree = "<group>"; };
+		0951B1ED2110929F009FB4ED /* SolveDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolveDetailViewController.h; sourceTree = "<group>"; };
+		0951B1EE2110929F009FB4ED /* SolveCallViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolveCallViewController.h; sourceTree = "<group>"; };
+		0951B1EF2110929F009FB4ED /* SolveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolveViewController.h; sourceTree = "<group>"; };
+		0951B1F02110929F009FB4ED /* SolveDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolveDetailViewController.m; sourceTree = "<group>"; };
+		0951B1F22110929F009FB4ED /* SolveModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolveModel.m; sourceTree = "<group>"; };
+		0951B1F32110929F009FB4ED /* EquipmentModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EquipmentModel.m; sourceTree = "<group>"; };
+		0951B1F42110929F009FB4ED /* AlarmModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmModel.h; sourceTree = "<group>"; };
+		0951B1F52110929F009FB4ED /* EquipmentModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EquipmentModel.h; sourceTree = "<group>"; };
+		0951B1F62110929F009FB4ED /* SolveModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolveModel.h; sourceTree = "<group>"; };
+		0951B1F72110929F009FB4ED /* AlarmModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmModel.m; sourceTree = "<group>"; };
+		0951B1F92110929F009FB4ED /* SolveMapCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolveMapCell.m; sourceTree = "<group>"; };
+		0951B1FA2110929F009FB4ED /* SolVeMapVIew.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SolVeMapVIew.m; sourceTree = "<group>"; };
+		0951B1FB2110929F009FB4ED /* AlarmCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlarmCell.m; sourceTree = "<group>"; };
+		0951B1FC2110929F009FB4ED /* SolveMapCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolveMapCell.h; sourceTree = "<group>"; };
+		0951B1FD2110929F009FB4ED /* SolVeMapVIew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SolVeMapVIew.h; sourceTree = "<group>"; };
+		0951B1FE2110929F009FB4ED /* AlarmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmCell.h; sourceTree = "<group>"; };
 		09576B32200D537A009CDB3D /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		09576B33200D537A009CDB3D /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
 		0962F1DA20034EA0006059CC /* NSDictionary+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+category.h"; sourceTree = "<group>"; };
@@ -934,9 +961,59 @@
 			path = "UILabel+Category1";
 			sourceTree = "<group>";
 		};
+		0951B1E92110929F009FB4ED /* Solve */ = {
+			isa = PBXGroup;
+			children = (
+				0951B1EA2110929F009FB4ED /* Controller */,
+				0951B1F12110929F009FB4ED /* Model */,
+				0951B1F82110929F009FB4ED /* View */,
+			);
+			path = Solve;
+			sourceTree = "<group>";
+		};
+		0951B1EA2110929F009FB4ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0951B1EB2110929F009FB4ED /* SolveViewController.m */,
+				0951B1EC2110929F009FB4ED /* SolveCallViewController.m */,
+				0951B1ED2110929F009FB4ED /* SolveDetailViewController.h */,
+				0951B1EE2110929F009FB4ED /* SolveCallViewController.h */,
+				0951B1EF2110929F009FB4ED /* SolveViewController.h */,
+				0951B1F02110929F009FB4ED /* SolveDetailViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0951B1F12110929F009FB4ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0951B1F22110929F009FB4ED /* SolveModel.m */,
+				0951B1F32110929F009FB4ED /* EquipmentModel.m */,
+				0951B1F42110929F009FB4ED /* AlarmModel.h */,
+				0951B1F52110929F009FB4ED /* EquipmentModel.h */,
+				0951B1F62110929F009FB4ED /* SolveModel.h */,
+				0951B1F72110929F009FB4ED /* AlarmModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0951B1F82110929F009FB4ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0951B1F92110929F009FB4ED /* SolveMapCell.m */,
+				0951B1FA2110929F009FB4ED /* SolVeMapVIew.m */,
+				0951B1FB2110929F009FB4ED /* AlarmCell.m */,
+				0951B1FC2110929F009FB4ED /* SolveMapCell.h */,
+				0951B1FD2110929F009FB4ED /* SolVeMapVIew.h */,
+				0951B1FE2110929F009FB4ED /* AlarmCell.h */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		0962F1BF20034EA0006059CC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				0951B1E92110929F009FB4ED /* Solve */,
 				0962F1FF200352AB006059CC /* Login */,
 				0962F1C020034EA0006059CC /* Base */,
 				0962F1C420034EA0006059CC /* Find */,
@@ -1739,10 +1816,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0951B2052110929F009FB4ED /* SolveMapCell.m in Sources */,
 				094CB6AA20FDBA6400972A67 /* PGBox.m in Sources */,
 				0962F1F120034EA0006059CC /* UIViewExt.m in Sources */,
 				09ABA92120052A9F00FB955D /* HelpViewController.m in Sources */,
 				092F12F7200CE6140012C67E /* ZFCirque.m in Sources */,
+				0951B1FF2110929F009FB4ED /* SolveViewController.m in Sources */,
 				094CB6AB20FDBA6400972A67 /* PGBarChartLabel.m in Sources */,
 				092F12FF200CE6140012C67E /* ZFLine.m in Sources */,
 				09576B34200D537A009CDB3D /* HistoryViewController.m in Sources */,
@@ -1783,6 +1862,7 @@
 				0962F1ED20034EA0006059CC /* NSDictionary+category.m in Sources */,
 				0962F1EE20034EA0006059CC /* NSString+Category.m in Sources */,
 				09BBDAC4200BD9E200BB2387 /* NSString+STRegex.m in Sources */,
+				0951B2062110929F009FB4ED /* SolVeMapVIew.m in Sources */,
 				0962F1F720034F0D006059CC /* BQDataService.m in Sources */,
 				09851188200F8BAA008DA0EE /* UIColor+expanded.m in Sources */,
 				09851185200F8BAA008DA0EE /* NSDate+Category.m in Sources */,
@@ -1828,6 +1908,8 @@
 				0985113E200E732A008DA0EE /* SettingViewController.m in Sources */,
 				09851168200F7F83008DA0EE /* MoreNewsViewController.m in Sources */,
 				094CB6A920FDBA6400972A67 /* PGBar.m in Sources */,
+				0951B2002110929F009FB4ED /* SolveCallViewController.m in Sources */,
+				0951B2012110929F009FB4ED /* SolveDetailViewController.m in Sources */,
 				092F12ED200CE6140012C67E /* ZFLabel.m in Sources */,
 				09BD29A12005263000DEE680 /* SDWebImageDownloader.m in Sources */,
 				09851153200EA819008DA0EE /* AboutUsViewController.m in Sources */,
@@ -1838,11 +1920,13 @@
 				0962F23820035F9A006059CC /* ProgressHUD.m in Sources */,
 				091CF2812108953700DCBFB4 /* PGBarChartLabel.m in Sources */,
 				092F12E9200CE6140012C67E /* NSString+Zirkfied.m in Sources */,
+				0951B2022110929F009FB4ED /* SolveModel.m in Sources */,
 				0962F243200396D2006059CC /* ServiceProViewController.m in Sources */,
 				0985116E200F89E3008DA0EE /* SignInViewController.m in Sources */,
 				09BD29AC2005263000DEE680 /* UIImage+MultiFormat.m in Sources */,
 				09BD29AB2005263000DEE680 /* UIImage+GIF.m in Sources */,
 				094CB6B320FEDBD700972A67 /* UILabel+NSMutableAttributedString.m in Sources */,
+				0951B2032110929F009FB4ED /* EquipmentModel.m in Sources */,
 				09851156200F2C11008DA0EE /* MeCell.m in Sources */,
 				092F12EE200CE6140012C67E /* ZFPopoverLabel.m in Sources */,
 				092F1305200CE6140012C67E /* ZFRadar.m in Sources */,
@@ -1886,6 +1970,8 @@
 				09BD29AA2005263000DEE680 /* UIImage+ForceDecode.m in Sources */,
 				092F12EC200CE6140012C67E /* UIView+Zirkfied.m in Sources */,
 				094CB6AC20FDBA6400972A67 /* PGBarChart.m in Sources */,
+				0951B2042110929F009FB4ED /* AlarmModel.m in Sources */,
+				0951B2072110929F009FB4ED /* AlarmCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
