@@ -171,6 +171,8 @@
 		09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BD29962005263000DEE680 /* UIView+WebCacheOperation.m */; };
 		09CA8461200D3E09008761E3 /* ShareSportsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09CA8460200D3E09008761E3 /* ShareSportsViewController.m */; };
 		09DB6EBD200C98BD000C4112 /* GoalSetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09DB6EBC200C98BD000C4112 /* GoalSetViewController.m */; };
+		09E2492D211161400043160B /* NSTimer+addition.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E2492B211161400043160B /* NSTimer+addition.m */; };
+		09E2492E211161400043160B /* WYWebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 09E2492C211161400043160B /* WYWebProgressLayer.m */; };
 		09FD2FFE20FF6A56003E69D9 /* ColumnarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09FD2FFD20FF6A56003E69D9 /* ColumnarView.m */; };
 		1D6CB6AC206CD98D007BA353 /* WMPageController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6A1206CD98D007BA353 /* WMPageController.m */; };
 		1D6CB6AD206CD98D007BA353 /* WMMenuItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CB6A7206CD98D007BA353 /* WMMenuItem.m */; };
@@ -535,6 +537,10 @@
 		09CA8460200D3E09008761E3 /* ShareSportsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareSportsViewController.m; sourceTree = "<group>"; };
 		09DB6EBB200C98BD000C4112 /* GoalSetViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GoalSetViewController.h; sourceTree = "<group>"; };
 		09DB6EBC200C98BD000C4112 /* GoalSetViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GoalSetViewController.m; sourceTree = "<group>"; };
+		09E24929211161400043160B /* NSTimer+addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSTimer+addition.h"; sourceTree = "<group>"; };
+		09E2492A211161400043160B /* WYWebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WYWebProgressLayer.h; sourceTree = "<group>"; };
+		09E2492B211161400043160B /* NSTimer+addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSTimer+addition.m"; sourceTree = "<group>"; };
+		09E2492C211161400043160B /* WYWebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WYWebProgressLayer.m; sourceTree = "<group>"; };
 		09FD2FFC20FF6A56003E69D9 /* ColumnarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColumnarView.h; sourceTree = "<group>"; };
 		09FD2FFD20FF6A56003E69D9 /* ColumnarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColumnarView.m; sourceTree = "<group>"; };
 		1D6CB6A1206CD98D007BA353 /* WMPageController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WMPageController.m; sourceTree = "<group>"; };
@@ -1330,6 +1336,7 @@
 		0962F1E520034EA0006059CC /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				09E24928211161400043160B /* WebProgress */,
 				094CB69D20FDBA6400972A67 /* PGBarChart */,
 				09BBDAC2200BD9E200BB2387 /* NSString+STRegex.h */,
 				09BBDAC3200BD9E200BB2387 /* NSString+STRegex.m */,
@@ -1513,6 +1520,17 @@
 				09BD29962005263000DEE680 /* UIView+WebCacheOperation.m */,
 			);
 			path = SDWebImage;
+			sourceTree = "<group>";
+		};
+		09E24928211161400043160B /* WebProgress */ = {
+			isa = PBXGroup;
+			children = (
+				09E24929211161400043160B /* NSTimer+addition.h */,
+				09E2492A211161400043160B /* WYWebProgressLayer.h */,
+				09E2492B211161400043160B /* NSTimer+addition.m */,
+				09E2492C211161400043160B /* WYWebProgressLayer.m */,
+			);
+			path = WebProgress;
 			sourceTree = "<group>";
 		};
 		09FD2FFB20FF6A56003E69D9 /* Columnar */ = {
@@ -1831,6 +1849,7 @@
 				1DD39B29207249E400707A1A /* DataBase.m in Sources */,
 				0962F1FA20034FC1006059CC /* YTNetworkRequest.m in Sources */,
 				0985116B200F852C008DA0EE /* NewsDetailViewController.m in Sources */,
+				09E2492D211161400043160B /* NSTimer+addition.m in Sources */,
 				09851186200F8BAA008DA0EE /* NSDate+convenience.m in Sources */,
 				092F12EA200CE6140012C67E /* UIBezierPath+Zirkfied.m in Sources */,
 				09FD2FFE20FF6A56003E69D9 /* ColumnarView.m in Sources */,
@@ -1934,6 +1953,7 @@
 				0985115C200F5E65008DA0EE /* FindCell.m in Sources */,
 				091CF27E2108953700DCBFB4 /* PGBarChartDataModel.m in Sources */,
 				09BD29A62005263000DEE680 /* SDWebImageManager.m in Sources */,
+				09E2492E211161400043160B /* WYWebProgressLayer.m in Sources */,
 				0962F24020038A86006059CC /* UIImage+Category.m in Sources */,
 				09851141200E757E008DA0EE /* SettingCell.m in Sources */,
 				0905A7B920033FA000480448 /* main.m in Sources */,
