@@ -478,6 +478,17 @@
 		09ABA92020052A9F00FB955D /* HelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HelpViewController.m; sourceTree = "<group>"; };
 		09ABA92320052ACE00FB955D /* KIImagePager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KIImagePager.h; sourceTree = "<group>"; };
 		09ABA92420052ACE00FB955D /* KIImagePager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KIImagePager.m; sourceTree = "<group>"; };
+		09B243312113038C0076F08A /* SportInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SportInfo.h; sourceTree = "<group>"; };
+		09B243322113038C0076F08A /* NotDisturbInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotDisturbInfo.h; sourceTree = "<group>"; };
+		09B243332113038C0076F08A /* BloodInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BloodInfo.h; sourceTree = "<group>"; };
+		09B243342113038C0076F08A /* Timing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Timing.h; sourceTree = "<group>"; };
+		09B243352113038C0076F08A /* SleepInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepInfo.h; sourceTree = "<group>"; };
+		09B243362113038C0076F08A /* HeartInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeartInfo.h; sourceTree = "<group>"; };
+		09B243372113038C0076F08A /* SleepMegInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SleepMegInfo.h; sourceTree = "<group>"; };
+		09B243382113038C0076F08A /* LongSitInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongSitInfo.h; sourceTree = "<group>"; };
+		09B243392113038C0076F08A /* YCSmartLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCSmartLib.h; sourceTree = "<group>"; };
+		09B2433A2113038C0076F08A /* YCSmartClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCSmartClient.h; sourceTree = "<group>"; };
+		09B2433B2113038C0076F08A /* BLEHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEHandler.h; sourceTree = "<group>"; };
 		09BBDAC2200BD9E200BB2387 /* NSString+STRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STRegex.h"; sourceTree = "<group>"; };
 		09BBDAC3200BD9E200BB2387 /* NSString+STRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STRegex.m"; sourceTree = "<group>"; };
 		09BD29622005263000DEE680 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
@@ -1279,6 +1290,7 @@
 		0962F1D820034EA0006059CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				09B243302113038C0076F08A /* blueTooth */,
 				091CF2702108953600DCBFB4 /* EMAlertView */,
 				091CF2732108953600DCBFB4 /* Parse */,
 				091CF2652108953600DCBFB4 /* PGBarChart */,
@@ -1451,6 +1463,24 @@
 				09ABA92420052ACE00FB955D /* KIImagePager.m */,
 			);
 			path = KIImagePager;
+			sourceTree = "<group>";
+		};
+		09B243302113038C0076F08A /* blueTooth */ = {
+			isa = PBXGroup;
+			children = (
+				09B243312113038C0076F08A /* SportInfo.h */,
+				09B243322113038C0076F08A /* NotDisturbInfo.h */,
+				09B243332113038C0076F08A /* BloodInfo.h */,
+				09B243342113038C0076F08A /* Timing.h */,
+				09B243352113038C0076F08A /* SleepInfo.h */,
+				09B243362113038C0076F08A /* HeartInfo.h */,
+				09B243372113038C0076F08A /* SleepMegInfo.h */,
+				09B243382113038C0076F08A /* LongSitInfo.h */,
+				09B243392113038C0076F08A /* YCSmartLib.h */,
+				09B2433A2113038C0076F08A /* YCSmartClient.h */,
+				09B2433B2113038C0076F08A /* BLEHandler.h */,
+			);
+			path = blueTooth;
 			sourceTree = "<group>";
 		};
 		09BD2948200523B400DEE680 /* lib */ = {
