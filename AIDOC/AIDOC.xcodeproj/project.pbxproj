@@ -135,6 +135,12 @@
 		09851188200F8BAA008DA0EE /* UIColor+expanded.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851180200F8BAA008DA0EE /* UIColor+expanded.m */; };
 		09851189200F8BAA008DA0EE /* UIView+convenience.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851182200F8BAA008DA0EE /* UIView+convenience.m */; };
 		0985118A200F8BAA008DA0EE /* VRGCalendarView.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851184200F8BAA008DA0EE /* VRGCalendarView.m */; };
+		098ECA302114478F00429FFE /* MPCharacteristic.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ECA222114478F00429FFE /* MPCharacteristic.m */; };
+		098ECA312114478F00429FFE /* MPBluetoothUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ECA232114478F00429FFE /* MPBluetoothUtils.m */; };
+		098ECA322114478F00429FFE /* MPPeripheral.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ECA252114478F00429FFE /* MPPeripheral.m */; };
+		098ECA332114478F00429FFE /* MPCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ECA272114478F00429FFE /* MPCentralManager.m */; };
+		098ECA342114478F00429FFE /* MPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ECA282114478F00429FFE /* MPService.m */; };
+		098ECA352114478F00429FFE /* MPDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ECA2D2114478F00429FFE /* MPDescriptor.m */; };
 		0994545821006EB700300E03 /* YWFeedbackFMWK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0994545521006EB700300E03 /* YWFeedbackFMWK.framework */; };
 		0994545921006EB700300E03 /* BCHybridWebViewFMWK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0994545621006EB700300E03 /* BCHybridWebViewFMWK.framework */; };
 		0994545A21006EB700300E03 /* BCConnectorBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0994545721006EB700300E03 /* BCConnectorBundle.framework */; };
@@ -469,6 +475,20 @@
 		09851182200F8BAA008DA0EE /* UIView+convenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+convenience.m"; sourceTree = "<group>"; };
 		09851183200F8BAA008DA0EE /* VRGCalendarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VRGCalendarView.h; sourceTree = "<group>"; };
 		09851184200F8BAA008DA0EE /* VRGCalendarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VRGCalendarView.m; sourceTree = "<group>"; };
+		098ECA222114478F00429FFE /* MPCharacteristic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCharacteristic.m; sourceTree = "<group>"; };
+		098ECA232114478F00429FFE /* MPBluetoothUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPBluetoothUtils.m; sourceTree = "<group>"; };
+		098ECA242114478F00429FFE /* MPBluetoothKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBluetoothKit.h; sourceTree = "<group>"; };
+		098ECA252114478F00429FFE /* MPPeripheral.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPPeripheral.m; sourceTree = "<group>"; };
+		098ECA262114478F00429FFE /* MPDescriptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPDescriptor.h; sourceTree = "<group>"; };
+		098ECA272114478F00429FFE /* MPCentralManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPCentralManager.m; sourceTree = "<group>"; };
+		098ECA282114478F00429FFE /* MPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPService.m; sourceTree = "<group>"; };
+		098ECA292114478F00429FFE /* MPBluetoothKitBlocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBluetoothKitBlocks.h; sourceTree = "<group>"; };
+		098ECA2A2114478F00429FFE /* MPBluetoothUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPBluetoothUtils.h; sourceTree = "<group>"; };
+		098ECA2B2114478F00429FFE /* MPCharacteristic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCharacteristic.h; sourceTree = "<group>"; };
+		098ECA2C2114478F00429FFE /* MPCentralManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPCentralManager.h; sourceTree = "<group>"; };
+		098ECA2D2114478F00429FFE /* MPDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDescriptor.m; sourceTree = "<group>"; };
+		098ECA2E2114478F00429FFE /* MPPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPeripheral.h; sourceTree = "<group>"; };
+		098ECA2F2114478F00429FFE /* MPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPService.h; sourceTree = "<group>"; };
 		0994545521006EB700300E03 /* YWFeedbackFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YWFeedbackFMWK.framework; sourceTree = "<group>"; };
 		0994545621006EB700300E03 /* BCHybridWebViewFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BCHybridWebViewFMWK.framework; sourceTree = "<group>"; };
 		0994545721006EB700300E03 /* BCConnectorBundle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BCConnectorBundle.framework; sourceTree = "<group>"; };
@@ -1290,6 +1310,7 @@
 		0962F1D820034EA0006059CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				098ECA212114478F00429FFE /* MPBluetoothKit */,
 				09B243302113038C0076F08A /* blueTooth */,
 				091CF2702108953600DCBFB4 /* EMAlertView */,
 				091CF2732108953600DCBFB4 /* Parse */,
@@ -1444,6 +1465,27 @@
 				09851184200F8BAA008DA0EE /* VRGCalendarView.m */,
 			);
 			path = Calendar;
+			sourceTree = "<group>";
+		};
+		098ECA212114478F00429FFE /* MPBluetoothKit */ = {
+			isa = PBXGroup;
+			children = (
+				098ECA222114478F00429FFE /* MPCharacteristic.m */,
+				098ECA232114478F00429FFE /* MPBluetoothUtils.m */,
+				098ECA242114478F00429FFE /* MPBluetoothKit.h */,
+				098ECA252114478F00429FFE /* MPPeripheral.m */,
+				098ECA262114478F00429FFE /* MPDescriptor.h */,
+				098ECA272114478F00429FFE /* MPCentralManager.m */,
+				098ECA282114478F00429FFE /* MPService.m */,
+				098ECA292114478F00429FFE /* MPBluetoothKitBlocks.h */,
+				098ECA2A2114478F00429FFE /* MPBluetoothUtils.h */,
+				098ECA2B2114478F00429FFE /* MPCharacteristic.h */,
+				098ECA2C2114478F00429FFE /* MPCentralManager.h */,
+				098ECA2D2114478F00429FFE /* MPDescriptor.m */,
+				098ECA2E2114478F00429FFE /* MPPeripheral.h */,
+				098ECA2F2114478F00429FFE /* MPService.h */,
+			);
+			path = MPBluetoothKit;
 			sourceTree = "<group>";
 		};
 		0994545421006EB700300E03 /* 用户反馈 */ = {
@@ -1913,6 +1955,7 @@
 				09BBDAC4200BD9E200BB2387 /* NSString+STRegex.m in Sources */,
 				0951B2062110929F009FB4ED /* SolVeMapVIew.m in Sources */,
 				0962F1F720034F0D006059CC /* BQDataService.m in Sources */,
+				098ECA312114478F00429FFE /* MPBluetoothUtils.m in Sources */,
 				09851188200F8BAA008DA0EE /* UIColor+expanded.m in Sources */,
 				09851185200F8BAA008DA0EE /* NSDate+Category.m in Sources */,
 				09851165200F6AB5008DA0EE /* FindHeadCell.m in Sources */,
@@ -1932,7 +1975,9 @@
 				09851159200F4C24008DA0EE /* SpoilAdviseViewController.m in Sources */,
 				0985114A200E9A7F008DA0EE /* MeDetailViewController.m in Sources */,
 				091CF2872108953700DCBFB4 /* SRRefreshView.m in Sources */,
+				098ECA352114478F00429FFE /* MPDescriptor.m in Sources */,
 				09851189200F8BAA008DA0EE /* UIView+convenience.m in Sources */,
+				098ECA342114478F00429FFE /* MPService.m in Sources */,
 				091CF262210841A200DCBFB4 /* EmojiPictographs.m in Sources */,
 				09BD29A02005263000DEE680 /* SDWebImageCompat.m in Sources */,
 				09BD299C2005263000DEE680 /* SDImageCacheConfig.m in Sources */,
@@ -1964,6 +2009,7 @@
 				09851153200EA819008DA0EE /* AboutUsViewController.m in Sources */,
 				092F1301200CE6140012C67E /* ZFPie.m in Sources */,
 				091CF261210841A200DCBFB4 /* EmojiEmoticons.m in Sources */,
+				098ECA302114478F00429FFE /* MPCharacteristic.m in Sources */,
 				09BD29AD2005263000DEE680 /* UIImage+WebP.m in Sources */,
 				1D6CB6B0206CD98D007BA353 /* WMProgressView.m in Sources */,
 				0962F23820035F9A006059CC /* ProgressHUD.m in Sources */,
@@ -1979,6 +2025,8 @@
 				09851156200F2C11008DA0EE /* MeCell.m in Sources */,
 				092F12EE200CE6140012C67E /* ZFPopoverLabel.m in Sources */,
 				092F1305200CE6140012C67E /* ZFRadar.m in Sources */,
+				098ECA322114478F00429FFE /* MPPeripheral.m in Sources */,
+				098ECA332114478F00429FFE /* MPCentralManager.m in Sources */,
 				0962F205200352B8006059CC /* UserInfoModel.m in Sources */,
 				0985115C200F5E65008DA0EE /* FindCell.m in Sources */,
 				091CF27E2108953700DCBFB4 /* PGBarChartDataModel.m in Sources */,
