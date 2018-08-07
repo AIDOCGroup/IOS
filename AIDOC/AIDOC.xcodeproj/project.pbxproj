@@ -112,6 +112,11 @@
 		0962F24020038A86006059CC /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F23F20038A86006059CC /* UIImage+Category.m */; };
 		0962F243200396D2006059CC /* ServiceProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F242200396D2006059CC /* ServiceProViewController.m */; };
 		0962F24620039F97006059CC /* TianyiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F24520039F97006059CC /* TianyiViewController.m */; };
+		096D494A211933720063473F /* DCMQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D493D211933720063473F /* DCMQViewController.m */; };
+		096D494B211933720063473F /* DCMVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D493F211933720063473F /* DCMVViewController.m */; };
+		096D494C211933720063473F /* DCMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4942211933720063473F /* DCMRViewController.m */; };
+		096D494D211933720063473F /* DCMediaListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4946211933720063473F /* DCMediaListViewController.m */; };
+		096D494E211933720063473F /* DCMediaTopToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4948211933720063473F /* DCMediaTopToolView.m */; };
 		0985113E200E732A008DA0EE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0985113D200E732A008DA0EE /* SettingViewController.m */; };
 		09851141200E757E008DA0EE /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851140200E757E008DA0EE /* SettingCell.m */; };
 		09851144200E8960008DA0EE /* ChangePhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851143200E8960008DA0EE /* ChangePhoneViewController.m */; };
@@ -429,6 +434,16 @@
 		0962F242200396D2006059CC /* ServiceProViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceProViewController.m; sourceTree = "<group>"; };
 		0962F24420039F97006059CC /* TianyiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TianyiViewController.h; sourceTree = "<group>"; };
 		0962F24520039F97006059CC /* TianyiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TianyiViewController.m; sourceTree = "<group>"; };
+		096D493D211933720063473F /* DCMQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMQViewController.m; sourceTree = "<group>"; };
+		096D493E211933720063473F /* DCMRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMRViewController.h; sourceTree = "<group>"; };
+		096D493F211933720063473F /* DCMVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMVViewController.m; sourceTree = "<group>"; };
+		096D4940211933720063473F /* DCMQViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMQViewController.h; sourceTree = "<group>"; };
+		096D4941211933720063473F /* DCMVViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMVViewController.h; sourceTree = "<group>"; };
+		096D4942211933720063473F /* DCMRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMRViewController.m; sourceTree = "<group>"; };
+		096D4945211933720063473F /* DCMediaListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMediaListViewController.h; sourceTree = "<group>"; };
+		096D4946211933720063473F /* DCMediaListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMediaListViewController.m; sourceTree = "<group>"; };
+		096D4948211933720063473F /* DCMediaTopToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMediaTopToolView.m; sourceTree = "<group>"; };
+		096D4949211933720063473F /* DCMediaTopToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMediaTopToolView.h; sourceTree = "<group>"; };
 		0985113C200E732A008DA0EE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		0985113D200E732A008DA0EE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		0985113F200E757E008DA0EE /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
@@ -1050,6 +1065,7 @@
 		0962F1BF20034EA0006059CC /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				096D493B211933720063473F /* MediaList(美媒榜) */,
 				0951B1E92110929F009FB4ED /* Solve */,
 				0962F1FF200352AB006059CC /* Login */,
 				0962F1C020034EA0006059CC /* Base */,
@@ -1446,6 +1462,55 @@
 				0962F23620035F9A006059CC /* ProgressHUD.m */,
 			);
 			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		096D493B211933720063473F /* MediaList(美媒榜) */ = {
+			isa = PBXGroup;
+			children = (
+				096D493C211933720063473F /* SubController */,
+				096D4943211933720063473F /* Main */,
+			);
+			path = "MediaList(美媒榜)";
+			sourceTree = "<group>";
+		};
+		096D493C211933720063473F /* SubController */ = {
+			isa = PBXGroup;
+			children = (
+				096D493D211933720063473F /* DCMQViewController.m */,
+				096D493E211933720063473F /* DCMRViewController.h */,
+				096D493F211933720063473F /* DCMVViewController.m */,
+				096D4940211933720063473F /* DCMQViewController.h */,
+				096D4941211933720063473F /* DCMVViewController.h */,
+				096D4942211933720063473F /* DCMRViewController.m */,
+			);
+			path = SubController;
+			sourceTree = "<group>";
+		};
+		096D4943211933720063473F /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				096D4944211933720063473F /* Controller */,
+				096D4947211933720063473F /* View */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		096D4944211933720063473F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				096D4945211933720063473F /* DCMediaListViewController.h */,
+				096D4946211933720063473F /* DCMediaListViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		096D4947211933720063473F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				096D4948211933720063473F /* DCMediaTopToolView.m */,
+				096D4949211933720063473F /* DCMediaTopToolView.h */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		09851178200F8BAA008DA0EE /* Calendar */ = {
@@ -1939,6 +2004,7 @@
 				092F12F1200CE6140012C67E /* ZFCurveAttribute.m in Sources */,
 				092F12FC200CE6140012C67E /* ZFHorizontalBar.m in Sources */,
 				092F12FA200CE6140012C67E /* ZFGenericChart.m in Sources */,
+				096D494E211933720063473F /* DCMediaTopToolView.m in Sources */,
 				0985118A200F8BAA008DA0EE /* VRGCalendarView.m in Sources */,
 				092F12FB200CE6140012C67E /* ZFHorizontalAxis.m in Sources */,
 				0962F1EF20034EA0006059CC /* NSString+Extension.m in Sources */,
@@ -1974,6 +2040,7 @@
 				092F1308200CE6140012C67E /* ZFWaveChart.m in Sources */,
 				09851159200F4C24008DA0EE /* SpoilAdviseViewController.m in Sources */,
 				0985114A200E9A7F008DA0EE /* MeDetailViewController.m in Sources */,
+				096D494C211933720063473F /* DCMRViewController.m in Sources */,
 				091CF2872108953700DCBFB4 /* SRRefreshView.m in Sources */,
 				098ECA352114478F00429FFE /* MPDescriptor.m in Sources */,
 				09851189200F8BAA008DA0EE /* UIView+convenience.m in Sources */,
@@ -2009,6 +2076,7 @@
 				09851153200EA819008DA0EE /* AboutUsViewController.m in Sources */,
 				092F1301200CE6140012C67E /* ZFPie.m in Sources */,
 				091CF261210841A200DCBFB4 /* EmojiEmoticons.m in Sources */,
+				096D494A211933720063473F /* DCMQViewController.m in Sources */,
 				098ECA302114478F00429FFE /* MPCharacteristic.m in Sources */,
 				09BD29AD2005263000DEE680 /* UIImage+WebP.m in Sources */,
 				1D6CB6B0206CD98D007BA353 /* WMProgressView.m in Sources */,
@@ -2032,11 +2100,13 @@
 				091CF27E2108953700DCBFB4 /* PGBarChartDataModel.m in Sources */,
 				09BD29A62005263000DEE680 /* SDWebImageManager.m in Sources */,
 				09E2492E211161400043160B /* WYWebProgressLayer.m in Sources */,
+				096D494D211933720063473F /* DCMediaListViewController.m in Sources */,
 				0962F24020038A86006059CC /* UIImage+Category.m in Sources */,
 				09851141200E757E008DA0EE /* SettingCell.m in Sources */,
 				0905A7B920033FA000480448 /* main.m in Sources */,
 				09BD29992005263000DEE680 /* NSData+ImageContentType.m in Sources */,
 				091CF27F2108953700DCBFB4 /* PGBar.m in Sources */,
+				096D494B211933720063473F /* DCMVViewController.m in Sources */,
 				09BD299F2005263000DEE680 /* SDWebImageCodersManager.m in Sources */,
 				092F12F3200CE6140012C67E /* ZFConst.m in Sources */,
 				09BD299A2005263000DEE680 /* NSImage+WebCache.m in Sources */,
