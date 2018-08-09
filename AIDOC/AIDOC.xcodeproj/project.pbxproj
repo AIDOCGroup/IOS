@@ -112,6 +112,7 @@
 		0962F24020038A86006059CC /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F23F20038A86006059CC /* UIImage+Category.m */; };
 		0962F243200396D2006059CC /* ServiceProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F242200396D2006059CC /* ServiceProViewController.m */; };
 		0962F24620039F97006059CC /* TianyiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F24520039F97006059CC /* TianyiViewController.m */; };
+		096A0F28211C314000BC9B77 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 096A0F26211C313F00BC9B77 /* DrawingView.m */; };
 		096D494A211933720063473F /* DCMQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D493D211933720063473F /* DCMQViewController.m */; };
 		096D494B211933720063473F /* DCMVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D493F211933720063473F /* DCMVViewController.m */; };
 		096D494C211933720063473F /* DCMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4942211933720063473F /* DCMRViewController.m */; };
@@ -437,6 +438,8 @@
 		0962F242200396D2006059CC /* ServiceProViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceProViewController.m; sourceTree = "<group>"; };
 		0962F24420039F97006059CC /* TianyiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TianyiViewController.h; sourceTree = "<group>"; };
 		0962F24520039F97006059CC /* TianyiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TianyiViewController.m; sourceTree = "<group>"; };
+		096A0F26211C313F00BC9B77 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
+		096A0F27211C313F00BC9B77 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
 		096D493D211933720063473F /* DCMQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMQViewController.m; sourceTree = "<group>"; };
 		096D493E211933720063473F /* DCMRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMRViewController.h; sourceTree = "<group>"; };
 		096D493F211933720063473F /* DCMVViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMVViewController.m; sourceTree = "<group>"; };
@@ -1396,6 +1399,8 @@
 		0962F1E520034EA0006059CC /* Tool */ = {
 			isa = PBXGroup;
 			children = (
+				096A0F27211C313F00BC9B77 /* DrawingView.h */,
+				096A0F26211C313F00BC9B77 /* DrawingView.m */,
 				09E24928211161400043160B /* WebProgress */,
 				094CB69D20FDBA6400972A67 /* PGBarChart */,
 				09BBDAC2200BD9E200BB2387 /* NSString+STRegex.h */,
@@ -2093,6 +2098,7 @@
 				0962F20F20035636006059CC /* BaseNavigationController.m in Sources */,
 				09ABA92520052ACE00FB955D /* KIImagePager.m in Sources */,
 				092F12EF200CE6140012C67E /* ZFXAxisLine.m in Sources */,
+				096A0F28211C314000BC9B77 /* DrawingView.m in Sources */,
 				092F12EB200CE6140012C67E /* UIColor+Zirkfied.m in Sources */,
 				0985113E200E732A008DA0EE /* SettingViewController.m in Sources */,
 				09851168200F7F83008DA0EE /* MoreNewsViewController.m in Sources */,
