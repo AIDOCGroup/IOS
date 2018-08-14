@@ -118,6 +118,7 @@
 		096D494C211933720063473F /* DCMRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4942211933720063473F /* DCMRViewController.m */; };
 		096D494D211933720063473F /* DCMediaListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4946211933720063473F /* DCMediaListViewController.m */; };
 		096D494E211933720063473F /* DCMediaTopToolView.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D4948211933720063473F /* DCMediaTopToolView.m */; };
+		0984EBF92122ED4200742362 /* NSArray+JSON.m in Sources */ = {isa = PBXBuildFile; fileRef = 0984EBF82122ED4200742362 /* NSArray+JSON.m */; };
 		0985113E200E732A008DA0EE /* SettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0985113D200E732A008DA0EE /* SettingViewController.m */; };
 		09851141200E757E008DA0EE /* SettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851140200E757E008DA0EE /* SettingCell.m */; };
 		09851144200E8960008DA0EE /* ChangePhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09851143200E8960008DA0EE /* ChangePhoneViewController.m */; };
@@ -450,6 +451,8 @@
 		096D4946211933720063473F /* DCMediaListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMediaListViewController.m; sourceTree = "<group>"; };
 		096D4948211933720063473F /* DCMediaTopToolView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMediaTopToolView.m; sourceTree = "<group>"; };
 		096D4949211933720063473F /* DCMediaTopToolView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DCMediaTopToolView.h; sourceTree = "<group>"; };
+		0984EBF72122ED4200742362 /* NSArray+JSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+JSON.h"; sourceTree = "<group>"; };
+		0984EBF82122ED4200742362 /* NSArray+JSON.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+JSON.m"; sourceTree = "<group>"; };
 		0985113C200E732A008DA0EE /* SettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingViewController.h; sourceTree = "<group>"; };
 		0985113D200E732A008DA0EE /* SettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingViewController.m; sourceTree = "<group>"; };
 		0985113F200E757E008DA0EE /* SettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingCell.h; sourceTree = "<group>"; };
@@ -1362,6 +1365,7 @@
 		0962F1D920034EA0006059CC /* Category(分类） */ = {
 			isa = PBXGroup;
 			children = (
+				0984EBF62122ED4200742362 /* NSArray+JSON */,
 				09FD2FFB20FF6A56003E69D9 /* Columnar */,
 				094CB6AD20FEDBD700972A67 /* UILabel+Category1 */,
 				09851178200F8BAA008DA0EE /* Calendar */,
@@ -1527,6 +1531,15 @@
 				096D4949211933720063473F /* DCMediaTopToolView.h */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		0984EBF62122ED4200742362 /* NSArray+JSON */ = {
+			isa = PBXGroup;
+			children = (
+				0984EBF72122ED4200742362 /* NSArray+JSON.h */,
+				0984EBF82122ED4200742362 /* NSArray+JSON.m */,
+			);
+			path = "NSArray+JSON";
 			sourceTree = "<group>";
 		};
 		09851178200F8BAA008DA0EE /* Calendar */ = {
@@ -2083,6 +2096,7 @@
 				09BD29A42005263000DEE680 /* SDWebImageGIFCoder.m in Sources */,
 				09BD29AE2005263000DEE680 /* UIImageView+HighlightedWebCache.m in Sources */,
 				091CF2822108953700DCBFB4 /* PGBarChart.m in Sources */,
+				0984EBF92122ED4200742362 /* NSArray+JSON.m in Sources */,
 				0962F2262003592D006059CC /* FindViewController.m in Sources */,
 				092F12F2200CE6140012C67E /* ZFGradientAttribute.m in Sources */,
 				09BD29A22005263000DEE680 /* SDWebImageDownloaderOperation.m in Sources */,
