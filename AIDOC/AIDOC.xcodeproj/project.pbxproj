@@ -81,6 +81,7 @@
 		0951B2062110929F009FB4ED /* SolVeMapVIew.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1FA2110929F009FB4ED /* SolVeMapVIew.m */; };
 		0951B2072110929F009FB4ED /* AlarmCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0951B1FB2110929F009FB4ED /* AlarmCell.m */; };
 		09576B34200D537A009CDB3D /* HistoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09576B33200D537A009CDB3D /* HistoryViewController.m */; };
+		0962DBF221241C4200E142BB /* loading.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0962DBF121241C4200E142BB /* loading.gif */; };
 		0962F1ED20034EA0006059CC /* NSDictionary+category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F1DB20034EA0006059CC /* NSDictionary+category.m */; };
 		0962F1EE20034EA0006059CC /* NSString+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F1DD20034EA0006059CC /* NSString+Category.m */; };
 		0962F1EF20034EA0006059CC /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F1DF20034EA0006059CC /* NSString+Extension.m */; };
@@ -375,6 +376,7 @@
 		0951B1FE2110929F009FB4ED /* AlarmCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlarmCell.h; sourceTree = "<group>"; };
 		09576B32200D537A009CDB3D /* HistoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HistoryViewController.h; sourceTree = "<group>"; };
 		09576B33200D537A009CDB3D /* HistoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HistoryViewController.m; sourceTree = "<group>"; };
+		0962DBF121241C4200E142BB /* loading.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loading.gif; sourceTree = "<group>"; };
 		0962F1DA20034EA0006059CC /* NSDictionary+category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+category.h"; sourceTree = "<group>"; };
 		0962F1DB20034EA0006059CC /* NSDictionary+category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+category.m"; sourceTree = "<group>"; };
 		0962F1DC20034EA0006059CC /* NSString+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Category.h"; sourceTree = "<group>"; };
@@ -676,6 +678,7 @@
 		0905A7AB20033FA000480448 = {
 			isa = PBXGroup;
 			children = (
+				0962DBF121241C4200E142BB /* loading.gif */,
 				0905A7B620033FA000480448 /* AIDOC */,
 				0905A7D020033FA000480448 /* AIDOCTests */,
 				0905A7DB20033FA000480448 /* AIDOCUITests */,
@@ -1913,6 +1916,7 @@
 				0905A7C720033FA000480448 /* LaunchScreen.storyboard in Resources */,
 				0994545D21006F3600300E03 /* address的副本.plist in Resources */,
 				0962F23A2003683C006059CC /* Assets.xcassets in Resources */,
+				0962DBF221241C4200E142BB /* loading.gif in Resources */,
 				0905A7C220033FA000480448 /* Main.storyboard in Resources */,
 				0994545E21006F3600300E03 /* address.plist in Resources */,
 			);
