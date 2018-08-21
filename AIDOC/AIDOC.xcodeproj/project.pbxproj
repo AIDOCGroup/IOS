@@ -64,6 +64,9 @@
 		092F1306200CE6140012C67E /* ZFRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E2200CE6140012C67E /* ZFRadarChart.m */; };
 		092F1307200CE6140012C67E /* ZFWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E5200CE6140012C67E /* ZFWave.m */; };
 		092F1308200CE6140012C67E /* ZFWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E7200CE6140012C67E /* ZFWaveChart.m */; };
+		09404917212BA74200867666 /* CWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09404911212BA74200867666 /* CWTableViewCell.m */; };
+		09404918212BA74200867666 /* CWTableViewCellInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 09404913212BA74200867666 /* CWTableViewCellInfo.m */; };
+		09404919212BA74200867666 /* CWTableViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 09404915212BA74200867666 /* CWTableViewInfo.m */; };
 		094CB6A820FDBA6400972A67 /* PGBarChartDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB69E20FDBA6400972A67 /* PGBarChartDataModel.m */; };
 		094CB6A920FDBA6400972A67 /* PGBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB69F20FDBA6400972A67 /* PGBar.m */; };
 		094CB6AA20FDBA6400972A67 /* PGBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A020FDBA6400972A67 /* PGBox.m */; };
@@ -342,6 +345,12 @@
 		092F12E5200CE6140012C67E /* ZFWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWave.m; sourceTree = "<group>"; };
 		092F12E6200CE6140012C67E /* ZFWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFWaveChart.h; sourceTree = "<group>"; };
 		092F12E7200CE6140012C67E /* ZFWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWaveChart.m; sourceTree = "<group>"; };
+		09404911212BA74200867666 /* CWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTableViewCell.m; sourceTree = "<group>"; };
+		09404912212BA74200867666 /* CWTableViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTableViewInfo.h; sourceTree = "<group>"; };
+		09404913212BA74200867666 /* CWTableViewCellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTableViewCellInfo.m; sourceTree = "<group>"; };
+		09404914212BA74200867666 /* CWTableViewCellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTableViewCellInfo.h; sourceTree = "<group>"; };
+		09404915212BA74200867666 /* CWTableViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTableViewInfo.m; sourceTree = "<group>"; };
+		09404916212BA74200867666 /* CWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTableViewCell.h; sourceTree = "<group>"; };
 		094CB69E20FDBA6400972A67 /* PGBarChartDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChartDataModel.m; sourceTree = "<group>"; };
 		094CB69F20FDBA6400972A67 /* PGBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBar.m; sourceTree = "<group>"; };
 		094CB6A020FDBA6400972A67 /* PGBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBox.m; sourceTree = "<group>"; };
@@ -1004,6 +1013,19 @@
 			path = ZFWaveChart;
 			sourceTree = "<group>";
 		};
+		09404910212BA74200867666 /* TableViewWidget */ = {
+			isa = PBXGroup;
+			children = (
+				09404911212BA74200867666 /* CWTableViewCell.m */,
+				09404912212BA74200867666 /* CWTableViewInfo.h */,
+				09404913212BA74200867666 /* CWTableViewCellInfo.m */,
+				09404914212BA74200867666 /* CWTableViewCellInfo.h */,
+				09404915212BA74200867666 /* CWTableViewInfo.m */,
+				09404916212BA74200867666 /* CWTableViewCell.h */,
+			);
+			path = TableViewWidget;
+			sourceTree = "<group>";
+		};
 		094CB69D20FDBA6400972A67 /* PGBarChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1346,6 +1368,7 @@
 		0962F1D820034EA0006059CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				09404910212BA74200867666 /* TableViewWidget */,
 				098ECA212114478F00429FFE /* MPBluetoothKit */,
 				09B243302113038C0076F08A /* blueTooth */,
 				091CF2702108953600DCBFB4 /* EMAlertView */,
@@ -2027,6 +2050,7 @@
 				094CB6AB20FDBA6400972A67 /* PGBarChartLabel.m in Sources */,
 				09C51E04211AC0A100342D97 /* UIDatePicker+myPicker.m in Sources */,
 				092F12FF200CE6140012C67E /* ZFLine.m in Sources */,
+				09404918212BA74200867666 /* CWTableViewCellInfo.m in Sources */,
 				09576B34200D537A009CDB3D /* HistoryViewController.m in Sources */,
 				09BD29A92005263000DEE680 /* UIButton+WebCache.m in Sources */,
 				092F12F5200CE6140012C67E /* ZFBar.m in Sources */,
@@ -2047,8 +2071,10 @@
 				09BD299D2005263000DEE680 /* SDWebImageCoder.m in Sources */,
 				09851171200F8A51008DA0EE /* ExampleViewController.m in Sources */,
 				1D6CB6AF206CD98D007BA353 /* WMMenuView.m in Sources */,
+				09404919212BA74200867666 /* CWTableViewInfo.m in Sources */,
 				09BD299E2005263000DEE680 /* SDWebImageCoderHelper.m in Sources */,
 				09BD29A82005263000DEE680 /* SDWebImageWebPCoder.m in Sources */,
+				09404917212BA74200867666 /* CWTableViewCell.m in Sources */,
 				092F12F1200CE6140012C67E /* ZFCurveAttribute.m in Sources */,
 				092F12FC200CE6140012C67E /* ZFHorizontalBar.m in Sources */,
 				092F12FA200CE6140012C67E /* ZFGenericChart.m in Sources */,
