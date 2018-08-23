@@ -64,9 +64,6 @@
 		092F1306200CE6140012C67E /* ZFRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E2200CE6140012C67E /* ZFRadarChart.m */; };
 		092F1307200CE6140012C67E /* ZFWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E5200CE6140012C67E /* ZFWave.m */; };
 		092F1308200CE6140012C67E /* ZFWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E7200CE6140012C67E /* ZFWaveChart.m */; };
-		09404917212BA74200867666 /* CWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 09404911212BA74200867666 /* CWTableViewCell.m */; };
-		09404918212BA74200867666 /* CWTableViewCellInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 09404913212BA74200867666 /* CWTableViewCellInfo.m */; };
-		09404919212BA74200867666 /* CWTableViewInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 09404915212BA74200867666 /* CWTableViewInfo.m */; };
 		094CB6A820FDBA6400972A67 /* PGBarChartDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB69E20FDBA6400972A67 /* PGBarChartDataModel.m */; };
 		094CB6A920FDBA6400972A67 /* PGBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB69F20FDBA6400972A67 /* PGBar.m */; };
 		094CB6AA20FDBA6400972A67 /* PGBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A020FDBA6400972A67 /* PGBox.m */; };
@@ -159,6 +156,8 @@
 		0994545E21006F3600300E03 /* address.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0994545C21006F3600300E03 /* address.plist */; };
 		09ABA92120052A9F00FB955D /* HelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ABA92020052A9F00FB955D /* HelpViewController.m */; };
 		09ABA92520052ACE00FB955D /* KIImagePager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09ABA92420052ACE00FB955D /* KIImagePager.m */; };
+		09B6A9FB212ED0560072158F /* UIView+XDRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 09B6A9F9212ED0560072158F /* UIView+XDRefresh.m */; };
+		09B6A9FC212ED0560072158F /* XDRefreshResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 09B6A9FA212ED0560072158F /* XDRefreshResource.bundle */; };
 		09BBDAC4200BD9E200BB2387 /* NSString+STRegex.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BBDAC3200BD9E200BB2387 /* NSString+STRegex.m */; };
 		09BD29982005263000DEE680 /* MKAnnotationView+WebCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BD29632005263000DEE680 /* MKAnnotationView+WebCache.m */; };
 		09BD29992005263000DEE680 /* NSData+ImageContentType.m in Sources */ = {isa = PBXBuildFile; fileRef = 09BD29652005263000DEE680 /* NSData+ImageContentType.m */; };
@@ -345,12 +344,6 @@
 		092F12E5200CE6140012C67E /* ZFWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWave.m; sourceTree = "<group>"; };
 		092F12E6200CE6140012C67E /* ZFWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFWaveChart.h; sourceTree = "<group>"; };
 		092F12E7200CE6140012C67E /* ZFWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWaveChart.m; sourceTree = "<group>"; };
-		09404911212BA74200867666 /* CWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTableViewCell.m; sourceTree = "<group>"; };
-		09404912212BA74200867666 /* CWTableViewInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTableViewInfo.h; sourceTree = "<group>"; };
-		09404913212BA74200867666 /* CWTableViewCellInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTableViewCellInfo.m; sourceTree = "<group>"; };
-		09404914212BA74200867666 /* CWTableViewCellInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTableViewCellInfo.h; sourceTree = "<group>"; };
-		09404915212BA74200867666 /* CWTableViewInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWTableViewInfo.m; sourceTree = "<group>"; };
-		09404916212BA74200867666 /* CWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWTableViewCell.h; sourceTree = "<group>"; };
 		094CB69E20FDBA6400972A67 /* PGBarChartDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChartDataModel.m; sourceTree = "<group>"; };
 		094CB69F20FDBA6400972A67 /* PGBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBar.m; sourceTree = "<group>"; };
 		094CB6A020FDBA6400972A67 /* PGBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBox.m; sourceTree = "<group>"; };
@@ -544,6 +537,9 @@
 		09B243392113038C0076F08A /* YCSmartLib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCSmartLib.h; sourceTree = "<group>"; };
 		09B2433A2113038C0076F08A /* YCSmartClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCSmartClient.h; sourceTree = "<group>"; };
 		09B2433B2113038C0076F08A /* BLEHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BLEHandler.h; sourceTree = "<group>"; };
+		09B6A9F8212ED0560072158F /* UIView+XDRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XDRefresh.h"; sourceTree = "<group>"; };
+		09B6A9F9212ED0560072158F /* UIView+XDRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XDRefresh.m"; sourceTree = "<group>"; };
+		09B6A9FA212ED0560072158F /* XDRefreshResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = XDRefreshResource.bundle; sourceTree = "<group>"; };
 		09BBDAC2200BD9E200BB2387 /* NSString+STRegex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+STRegex.h"; sourceTree = "<group>"; };
 		09BBDAC3200BD9E200BB2387 /* NSString+STRegex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+STRegex.m"; sourceTree = "<group>"; };
 		09BD29622005263000DEE680 /* MKAnnotationView+WebCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MKAnnotationView+WebCache.h"; sourceTree = "<group>"; };
@@ -1013,19 +1009,6 @@
 			path = ZFWaveChart;
 			sourceTree = "<group>";
 		};
-		09404910212BA74200867666 /* TableViewWidget */ = {
-			isa = PBXGroup;
-			children = (
-				09404911212BA74200867666 /* CWTableViewCell.m */,
-				09404912212BA74200867666 /* CWTableViewInfo.h */,
-				09404913212BA74200867666 /* CWTableViewCellInfo.m */,
-				09404914212BA74200867666 /* CWTableViewCellInfo.h */,
-				09404915212BA74200867666 /* CWTableViewInfo.m */,
-				09404916212BA74200867666 /* CWTableViewCell.h */,
-			);
-			path = TableViewWidget;
-			sourceTree = "<group>";
-		};
 		094CB69D20FDBA6400972A67 /* PGBarChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1368,7 +1351,7 @@
 		0962F1D820034EA0006059CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
-				09404910212BA74200867666 /* TableViewWidget */,
+				09B6A9F7212ED0560072158F /* XDRefresh */,
 				098ECA212114478F00429FFE /* MPBluetoothKit */,
 				09B243302113038C0076F08A /* blueTooth */,
 				091CF2702108953600DCBFB4 /* EMAlertView */,
@@ -1643,6 +1626,16 @@
 				09B2433B2113038C0076F08A /* BLEHandler.h */,
 			);
 			path = blueTooth;
+			sourceTree = "<group>";
+		};
+		09B6A9F7212ED0560072158F /* XDRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				09B6A9F8212ED0560072158F /* UIView+XDRefresh.h */,
+				09B6A9F9212ED0560072158F /* UIView+XDRefresh.m */,
+				09B6A9FA212ED0560072158F /* XDRefreshResource.bundle */,
+			);
+			path = XDRefresh;
 			sourceTree = "<group>";
 		};
 		09BD2948200523B400DEE680 /* lib */ = {
@@ -1938,6 +1931,7 @@
 				0962F23720035F9A006059CC /* ProgressHUD.bundle in Resources */,
 				0905A7C720033FA000480448 /* LaunchScreen.storyboard in Resources */,
 				0994545D21006F3600300E03 /* address的副本.plist in Resources */,
+				09B6A9FC212ED0560072158F /* XDRefreshResource.bundle in Resources */,
 				0962F23A2003683C006059CC /* Assets.xcassets in Resources */,
 				0962DBF221241C4200E142BB /* loading.gif in Resources */,
 				0905A7C220033FA000480448 /* Main.storyboard in Resources */,
@@ -2050,7 +2044,6 @@
 				094CB6AB20FDBA6400972A67 /* PGBarChartLabel.m in Sources */,
 				09C51E04211AC0A100342D97 /* UIDatePicker+myPicker.m in Sources */,
 				092F12FF200CE6140012C67E /* ZFLine.m in Sources */,
-				09404918212BA74200867666 /* CWTableViewCellInfo.m in Sources */,
 				09576B34200D537A009CDB3D /* HistoryViewController.m in Sources */,
 				09BD29A92005263000DEE680 /* UIButton+WebCache.m in Sources */,
 				092F12F5200CE6140012C67E /* ZFBar.m in Sources */,
@@ -2071,10 +2064,8 @@
 				09BD299D2005263000DEE680 /* SDWebImageCoder.m in Sources */,
 				09851171200F8A51008DA0EE /* ExampleViewController.m in Sources */,
 				1D6CB6AF206CD98D007BA353 /* WMMenuView.m in Sources */,
-				09404919212BA74200867666 /* CWTableViewInfo.m in Sources */,
 				09BD299E2005263000DEE680 /* SDWebImageCoderHelper.m in Sources */,
 				09BD29A82005263000DEE680 /* SDWebImageWebPCoder.m in Sources */,
-				09404917212BA74200867666 /* CWTableViewCell.m in Sources */,
 				092F12F1200CE6140012C67E /* ZFCurveAttribute.m in Sources */,
 				092F12FC200CE6140012C67E /* ZFHorizontalBar.m in Sources */,
 				092F12FA200CE6140012C67E /* ZFGenericChart.m in Sources */,
@@ -2195,6 +2186,7 @@
 				092F12F8200CE6140012C67E /* ZFCirqueChart.m in Sources */,
 				091CF2832108953700DCBFB4 /* EMAlertView.m in Sources */,
 				09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */,
+				09B6A9FB212ED0560072158F /* UIView+XDRefresh.m in Sources */,
 				09851150200EA7F6008DA0EE /* HelpCenterViewController.m in Sources */,
 				0962F1F220034EA0006059CC /* CodeTextField.m in Sources */,
 				092F1307200CE6140012C67E /* ZFWave.m in Sources */,
