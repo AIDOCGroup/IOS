@@ -113,6 +113,8 @@
 		0962F24020038A86006059CC /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F23F20038A86006059CC /* UIImage+Category.m */; };
 		0962F243200396D2006059CC /* ServiceProViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F242200396D2006059CC /* ServiceProViewController.m */; };
 		0962F24620039F97006059CC /* TianyiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0962F24520039F97006059CC /* TianyiViewController.m */; };
+		0963B25A2136B84100FEF9BC /* RoundView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963B2562136B84100FEF9BC /* RoundView.m */; };
+		0963B25B2136B84100FEF9BC /* BQDrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0963B2572136B84100FEF9BC /* BQDrawingView.m */; };
 		096A0F28211C314000BC9B77 /* DrawingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 096A0F26211C313F00BC9B77 /* DrawingView.m */; };
 		096D494A211933720063473F /* DCMQViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D493D211933720063473F /* DCMQViewController.m */; };
 		096D494B211933720063473F /* DCMVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 096D493F211933720063473F /* DCMVViewController.m */; };
@@ -443,6 +445,10 @@
 		0962F242200396D2006059CC /* ServiceProViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceProViewController.m; sourceTree = "<group>"; };
 		0962F24420039F97006059CC /* TianyiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TianyiViewController.h; sourceTree = "<group>"; };
 		0962F24520039F97006059CC /* TianyiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TianyiViewController.m; sourceTree = "<group>"; };
+		0963B2562136B84100FEF9BC /* RoundView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RoundView.m; sourceTree = "<group>"; };
+		0963B2572136B84100FEF9BC /* BQDrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQDrawingView.m; sourceTree = "<group>"; };
+		0963B2582136B84100FEF9BC /* BQDrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQDrawingView.h; sourceTree = "<group>"; };
+		0963B2592136B84100FEF9BC /* RoundView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RoundView.h; sourceTree = "<group>"; };
 		096A0F26211C313F00BC9B77 /* DrawingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DrawingView.m; sourceTree = "<group>"; };
 		096A0F27211C313F00BC9B77 /* DrawingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DrawingView.h; sourceTree = "<group>"; };
 		096D493D211933720063473F /* DCMQViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DCMQViewController.m; sourceTree = "<group>"; };
@@ -1351,6 +1357,7 @@
 		0962F1D820034EA0006059CC /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				0963B2552136B84100FEF9BC /* BQDrawingView */,
 				09B6A9F7212ED0560072158F /* XDRefresh */,
 				098ECA212114478F00429FFE /* MPBluetoothKit */,
 				09B243302113038C0076F08A /* blueTooth */,
@@ -1491,6 +1498,17 @@
 				0962F23620035F9A006059CC /* ProgressHUD.m */,
 			);
 			path = ProgressHUD;
+			sourceTree = "<group>";
+		};
+		0963B2552136B84100FEF9BC /* BQDrawingView */ = {
+			isa = PBXGroup;
+			children = (
+				0963B2582136B84100FEF9BC /* BQDrawingView.h */,
+				0963B2572136B84100FEF9BC /* BQDrawingView.m */,
+				0963B2592136B84100FEF9BC /* RoundView.h */,
+				0963B2562136B84100FEF9BC /* RoundView.m */,
+			);
+			path = BQDrawingView;
 			sourceTree = "<group>";
 		};
 		096D493B211933720063473F /* MediaList(美媒榜) */ = {
@@ -2072,6 +2090,7 @@
 				096D494E211933720063473F /* DCMediaTopToolView.m in Sources */,
 				0985118A200F8BAA008DA0EE /* VRGCalendarView.m in Sources */,
 				092F12FB200CE6140012C67E /* ZFHorizontalAxis.m in Sources */,
+				0963B25B2136B84100FEF9BC /* BQDrawingView.m in Sources */,
 				0962F1EF20034EA0006059CC /* NSString+Extension.m in Sources */,
 				092F12E8200CE6140012C67E /* NSNumber+Zirkfied.m in Sources */,
 				0905A7BC20033FA000480448 /* AppDelegate.m in Sources */,
@@ -2188,6 +2207,7 @@
 				09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */,
 				09B6A9FB212ED0560072158F /* UIView+XDRefresh.m in Sources */,
 				09851150200EA7F6008DA0EE /* HelpCenterViewController.m in Sources */,
+				0963B25A2136B84100FEF9BC /* RoundView.m in Sources */,
 				0962F1F220034EA0006059CC /* CodeTextField.m in Sources */,
 				092F1307200CE6140012C67E /* ZFWave.m in Sources */,
 				0962F2182003575A006059CC /* MBProgressHUD+Add.m in Sources */,
