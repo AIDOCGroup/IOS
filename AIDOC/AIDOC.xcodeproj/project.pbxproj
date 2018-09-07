@@ -64,6 +64,12 @@
 		092F1306200CE6140012C67E /* ZFRadarChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E2200CE6140012C67E /* ZFRadarChart.m */; };
 		092F1307200CE6140012C67E /* ZFWave.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E5200CE6140012C67E /* ZFWave.m */; };
 		092F1308200CE6140012C67E /* ZFWaveChart.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F12E7200CE6140012C67E /* ZFWaveChart.m */; };
+		0944D5E0214268ED004F005F /* SPPageMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944D5D3214268ED004F005F /* SPPageMenu.m */; };
+		0944D5E1214268ED004F005F /* CWInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944D5D6214268ED004F005F /* CWInteractiveTransition.m */; };
+		0944D5E2214268ED004F005F /* UIViewController+CWLateralSlide.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944D5D9214268ED004F005F /* UIViewController+CWLateralSlide.m */; };
+		0944D5E3214268ED004F005F /* CWLateralSlideAnimator.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944D5DC214268ED004F005F /* CWLateralSlideAnimator.m */; };
+		0944D5E4214268ED004F005F /* CWDrawerTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944D5DD214268ED004F005F /* CWDrawerTransition.m */; };
+		0944D5E5214268ED004F005F /* CWLateralSlideConfiguration.m in Sources */ = {isa = PBXBuildFile; fileRef = 0944D5DF214268ED004F005F /* CWLateralSlideConfiguration.m */; };
 		094CB6A820FDBA6400972A67 /* PGBarChartDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB69E20FDBA6400972A67 /* PGBarChartDataModel.m */; };
 		094CB6A920FDBA6400972A67 /* PGBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB69F20FDBA6400972A67 /* PGBar.m */; };
 		094CB6AA20FDBA6400972A67 /* PGBox.m in Sources */ = {isa = PBXBuildFile; fileRef = 094CB6A020FDBA6400972A67 /* PGBox.m */; };
@@ -346,6 +352,18 @@
 		092F12E5200CE6140012C67E /* ZFWave.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWave.m; sourceTree = "<group>"; };
 		092F12E6200CE6140012C67E /* ZFWaveChart.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZFWaveChart.h; sourceTree = "<group>"; };
 		092F12E7200CE6140012C67E /* ZFWaveChart.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZFWaveChart.m; sourceTree = "<group>"; };
+		0944D5D3214268ED004F005F /* SPPageMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SPPageMenu.m; sourceTree = "<group>"; };
+		0944D5D4214268ED004F005F /* SPPageMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SPPageMenu.h; sourceTree = "<group>"; };
+		0944D5D6214268ED004F005F /* CWInteractiveTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWInteractiveTransition.m; sourceTree = "<group>"; };
+		0944D5D7214268ED004F005F /* CWDrawerTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWDrawerTransition.h; sourceTree = "<group>"; };
+		0944D5D8214268ED004F005F /* CWLateralSlideAnimator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLateralSlideAnimator.h; sourceTree = "<group>"; };
+		0944D5D9214268ED004F005F /* UIViewController+CWLateralSlide.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+CWLateralSlide.m"; sourceTree = "<group>"; };
+		0944D5DA214268ED004F005F /* CWLateralSlideConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWLateralSlideConfiguration.h; sourceTree = "<group>"; };
+		0944D5DB214268ED004F005F /* CWInteractiveTransition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWInteractiveTransition.h; sourceTree = "<group>"; };
+		0944D5DC214268ED004F005F /* CWLateralSlideAnimator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLateralSlideAnimator.m; sourceTree = "<group>"; };
+		0944D5DD214268ED004F005F /* CWDrawerTransition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWDrawerTransition.m; sourceTree = "<group>"; };
+		0944D5DE214268ED004F005F /* UIViewController+CWLateralSlide.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+CWLateralSlide.h"; sourceTree = "<group>"; };
+		0944D5DF214268ED004F005F /* CWLateralSlideConfiguration.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWLateralSlideConfiguration.m; sourceTree = "<group>"; };
 		094CB69E20FDBA6400972A67 /* PGBarChartDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBarChartDataModel.m; sourceTree = "<group>"; };
 		094CB69F20FDBA6400972A67 /* PGBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBar.m; sourceTree = "<group>"; };
 		094CB6A020FDBA6400972A67 /* PGBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PGBox.m; sourceTree = "<group>"; };
@@ -1015,6 +1033,32 @@
 			path = ZFWaveChart;
 			sourceTree = "<group>";
 		};
+		0944D5D2214268ED004F005F /* SPPageMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0944D5D3214268ED004F005F /* SPPageMenu.m */,
+				0944D5D4214268ED004F005F /* SPPageMenu.h */,
+			);
+			path = SPPageMenu;
+			sourceTree = "<group>";
+		};
+		0944D5D5214268ED004F005F /* CWLateralSlide */ = {
+			isa = PBXGroup;
+			children = (
+				0944D5D6214268ED004F005F /* CWInteractiveTransition.m */,
+				0944D5D7214268ED004F005F /* CWDrawerTransition.h */,
+				0944D5D8214268ED004F005F /* CWLateralSlideAnimator.h */,
+				0944D5D9214268ED004F005F /* UIViewController+CWLateralSlide.m */,
+				0944D5DA214268ED004F005F /* CWLateralSlideConfiguration.h */,
+				0944D5DB214268ED004F005F /* CWInteractiveTransition.h */,
+				0944D5DC214268ED004F005F /* CWLateralSlideAnimator.m */,
+				0944D5DD214268ED004F005F /* CWDrawerTransition.m */,
+				0944D5DE214268ED004F005F /* UIViewController+CWLateralSlide.h */,
+				0944D5DF214268ED004F005F /* CWLateralSlideConfiguration.m */,
+			);
+			path = CWLateralSlide;
+			sourceTree = "<group>";
+		};
 		094CB69D20FDBA6400972A67 /* PGBarChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1239,6 +1283,8 @@
 		0962F1CB20034EA0006059CC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0944D5D5214268ED004F005F /* CWLateralSlide */,
+				0944D5D2214268ED004F005F /* SPPageMenu */,
 				0985113F200E757E008DA0EE /* SettingCell.h */,
 				09851140200E757E008DA0EE /* SettingCell.m */,
 				09851154200F2C11008DA0EE /* MeCell.h */,
@@ -2106,6 +2152,7 @@
 				0951B2062110929F009FB4ED /* SolVeMapVIew.m in Sources */,
 				0962F1F720034F0D006059CC /* BQDataService.m in Sources */,
 				098ECA312114478F00429FFE /* MPBluetoothUtils.m in Sources */,
+				0944D5E4214268ED004F005F /* CWDrawerTransition.m in Sources */,
 				09851188200F8BAA008DA0EE /* UIColor+expanded.m in Sources */,
 				09851185200F8BAA008DA0EE /* NSDate+Category.m in Sources */,
 				09851165200F6AB5008DA0EE /* FindHeadCell.m in Sources */,
@@ -2140,6 +2187,7 @@
 				0962F2262003592D006059CC /* FindViewController.m in Sources */,
 				092F12F2200CE6140012C67E /* ZFGradientAttribute.m in Sources */,
 				09BD29A22005263000DEE680 /* SDWebImageDownloaderOperation.m in Sources */,
+				0944D5E3214268ED004F005F /* CWLateralSlideAnimator.m in Sources */,
 				09BD29AF2005263000DEE680 /* UIImageView+WebCache.m in Sources */,
 				09BD299B2005263000DEE680 /* SDImageCache.m in Sources */,
 				09851187200F8BAA008DA0EE /* NSMutableArray+convenience.m in Sources */,
@@ -2157,6 +2205,7 @@
 				0985113E200E732A008DA0EE /* SettingViewController.m in Sources */,
 				09851168200F7F83008DA0EE /* MoreNewsViewController.m in Sources */,
 				094CB6A920FDBA6400972A67 /* PGBar.m in Sources */,
+				0944D5E2214268ED004F005F /* UIViewController+CWLateralSlide.m in Sources */,
 				0951B2002110929F009FB4ED /* SolveCallViewController.m in Sources */,
 				0951B2012110929F009FB4ED /* SolveDetailViewController.m in Sources */,
 				092F12ED200CE6140012C67E /* ZFLabel.m in Sources */,
@@ -2185,6 +2234,7 @@
 				098ECA332114478F00429FFE /* MPCentralManager.m in Sources */,
 				0962F205200352B8006059CC /* UserInfoModel.m in Sources */,
 				0985115C200F5E65008DA0EE /* FindCell.m in Sources */,
+				0944D5E1214268ED004F005F /* CWInteractiveTransition.m in Sources */,
 				091CF27E2108953700DCBFB4 /* PGBarChartDataModel.m in Sources */,
 				09BD29A62005263000DEE680 /* SDWebImageManager.m in Sources */,
 				09E2492E211161400043160B /* WYWebProgressLayer.m in Sources */,
@@ -2192,6 +2242,7 @@
 				0962F24020038A86006059CC /* UIImage+Category.m in Sources */,
 				09851141200E757E008DA0EE /* SettingCell.m in Sources */,
 				0905A7B920033FA000480448 /* main.m in Sources */,
+				0944D5E5214268ED004F005F /* CWLateralSlideConfiguration.m in Sources */,
 				09BD29992005263000DEE680 /* NSData+ImageContentType.m in Sources */,
 				091CF27F2108953700DCBFB4 /* PGBar.m in Sources */,
 				096D494B211933720063473F /* DCMVViewController.m in Sources */,
@@ -2209,6 +2260,7 @@
 				09851150200EA7F6008DA0EE /* HelpCenterViewController.m in Sources */,
 				0963B25A2136B84100FEF9BC /* RoundView.m in Sources */,
 				0962F1F220034EA0006059CC /* CodeTextField.m in Sources */,
+				0944D5E0214268ED004F005F /* SPPageMenu.m in Sources */,
 				092F1307200CE6140012C67E /* ZFWave.m in Sources */,
 				0962F2182003575A006059CC /* MBProgressHUD+Add.m in Sources */,
 				09CA8461200D3E09008761E3 /* ShareSportsViewController.m in Sources */,
