@@ -47,4 +47,6 @@ pod 'VerifyCode'
 #有赞云
 pod 'YZAppSDK'
 
+pod 'SBJson', '~> 4.0.1'
+
 end
