@@ -49,4 +49,5 @@ pod 'YZAppSDK'
 
 pod 'SBJson', '~> 4.0.1'
 
+pod 'iOSDFULibrary'
 end
