@@ -157,6 +157,11 @@
 		098ECA332114478F00429FFE /* MPCentralManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ECA272114478F00429FFE /* MPCentralManager.m */; };
 		098ECA342114478F00429FFE /* MPService.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ECA282114478F00429FFE /* MPService.m */; };
 		098ECA352114478F00429FFE /* MPDescriptor.m in Sources */ = {isa = PBXBuildFile; fileRef = 098ECA2D2114478F00429FFE /* MPDescriptor.m */; };
+		0993D0572152699000066B79 /* AssetsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0993D04D2152698F00066B79 /* AssetsCell.m */; };
+		0993D0582152699000066B79 /* RightCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0993D04F2152698F00066B79 /* RightCell.m */; };
+		0993D0592152699000066B79 /* AssetsDetailCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0993D0512152698F00066B79 /* AssetsDetailCell.m */; };
+		0993D05A2152699000066B79 /* HomeAssetsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0993D0532152698F00066B79 /* HomeAssetsCell.m */; };
+		0993D05B2152699000066B79 /* HomeAddCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0993D0542152698F00066B79 /* HomeAddCell.m */; };
 		0994545821006EB700300E03 /* YWFeedbackFMWK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0994545521006EB700300E03 /* YWFeedbackFMWK.framework */; };
 		0994545921006EB700300E03 /* BCHybridWebViewFMWK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0994545621006EB700300E03 /* BCHybridWebViewFMWK.framework */; };
 		0994545A21006EB700300E03 /* BCConnectorBundle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0994545721006EB700300E03 /* BCConnectorBundle.framework */; };
@@ -541,6 +546,16 @@
 		098ECA2D2114478F00429FFE /* MPDescriptor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MPDescriptor.m; sourceTree = "<group>"; };
 		098ECA2E2114478F00429FFE /* MPPeripheral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPPeripheral.h; sourceTree = "<group>"; };
 		098ECA2F2114478F00429FFE /* MPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MPService.h; sourceTree = "<group>"; };
+		0993D04D2152698F00066B79 /* AssetsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsCell.m; sourceTree = "<group>"; };
+		0993D04E2152698F00066B79 /* AssetsDetailCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsDetailCell.h; sourceTree = "<group>"; };
+		0993D04F2152698F00066B79 /* RightCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightCell.m; sourceTree = "<group>"; };
+		0993D0502152698F00066B79 /* RightCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightCell.h; sourceTree = "<group>"; };
+		0993D0512152698F00066B79 /* AssetsDetailCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AssetsDetailCell.m; sourceTree = "<group>"; };
+		0993D0522152698F00066B79 /* HomeAssetsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeAssetsCell.h; sourceTree = "<group>"; };
+		0993D0532152698F00066B79 /* HomeAssetsCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeAssetsCell.m; sourceTree = "<group>"; };
+		0993D0542152698F00066B79 /* HomeAddCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeAddCell.m; sourceTree = "<group>"; };
+		0993D0552152699000066B79 /* HomeAddCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeAddCell.h; sourceTree = "<group>"; };
+		0993D0562152699000066B79 /* AssetsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AssetsCell.h; sourceTree = "<group>"; };
 		0994545521006EB700300E03 /* YWFeedbackFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = YWFeedbackFMWK.framework; sourceTree = "<group>"; };
 		0994545621006EB700300E03 /* BCHybridWebViewFMWK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BCHybridWebViewFMWK.framework; sourceTree = "<group>"; };
 		0994545721006EB700300E03 /* BCConnectorBundle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BCConnectorBundle.framework; sourceTree = "<group>"; };
@@ -1283,6 +1298,16 @@
 		0962F1CB20034EA0006059CC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0993D0562152699000066B79 /* AssetsCell.h */,
+				0993D04D2152698F00066B79 /* AssetsCell.m */,
+				0993D04E2152698F00066B79 /* AssetsDetailCell.h */,
+				0993D0512152698F00066B79 /* AssetsDetailCell.m */,
+				0993D0552152699000066B79 /* HomeAddCell.h */,
+				0993D0542152698F00066B79 /* HomeAddCell.m */,
+				0993D0522152698F00066B79 /* HomeAssetsCell.h */,
+				0993D0532152698F00066B79 /* HomeAssetsCell.m */,
+				0993D0502152698F00066B79 /* RightCell.h */,
+				0993D04F2152698F00066B79 /* RightCell.m */,
 				0944D5D5214268ED004F005F /* CWLateralSlide */,
 				0944D5D2214268ED004F005F /* SPPageMenu */,
 				0985113F200E757E008DA0EE /* SettingCell.h */,
@@ -2137,6 +2162,8 @@
 				0985118A200F8BAA008DA0EE /* VRGCalendarView.m in Sources */,
 				092F12FB200CE6140012C67E /* ZFHorizontalAxis.m in Sources */,
 				0963B25B2136B84100FEF9BC /* BQDrawingView.m in Sources */,
+				0993D05B2152699000066B79 /* HomeAddCell.m in Sources */,
+				0993D0582152699000066B79 /* RightCell.m in Sources */,
 				0962F1EF20034EA0006059CC /* NSString+Extension.m in Sources */,
 				092F12E8200CE6140012C67E /* NSNumber+Zirkfied.m in Sources */,
 				0905A7BC20033FA000480448 /* AppDelegate.m in Sources */,
@@ -2149,6 +2176,8 @@
 				0962F1ED20034EA0006059CC /* NSDictionary+category.m in Sources */,
 				0962F1EE20034EA0006059CC /* NSString+Category.m in Sources */,
 				09BBDAC4200BD9E200BB2387 /* NSString+STRegex.m in Sources */,
+				0993D0592152699000066B79 /* AssetsDetailCell.m in Sources */,
+				0993D0572152699000066B79 /* AssetsCell.m in Sources */,
 				0951B2062110929F009FB4ED /* SolVeMapVIew.m in Sources */,
 				0962F1F720034F0D006059CC /* BQDataService.m in Sources */,
 				098ECA312114478F00429FFE /* MPBluetoothUtils.m in Sources */,
@@ -2254,6 +2283,7 @@
 				091CF264210841A200DCBFB4 /* Emoji.m in Sources */,
 				0962F1F320034EA0006059CC /* CommonFunc.m in Sources */,
 				092F12F8200CE6140012C67E /* ZFCirqueChart.m in Sources */,
+				0993D05A2152699000066B79 /* HomeAssetsCell.m in Sources */,
 				091CF2832108953700DCBFB4 /* EMAlertView.m in Sources */,
 				09BD29B12005263000DEE680 /* UIView+WebCacheOperation.m in Sources */,
 				09B6A9FB212ED0560072158F /* UIView+XDRefresh.m in Sources */,
