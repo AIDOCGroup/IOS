@@ -31,6 +31,7 @@
 		091CF2872108953700DCBFB4 /* SRRefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF2792108953600DCBFB4 /* SRRefreshView.m */; };
 		091CF2882108953700DCBFB4 /* SRSlimeView.m in Sources */ = {isa = PBXBuildFile; fileRef = 091CF27A2108953600DCBFB4 /* SRSlimeView.m */; };
 		091CF2892108953700DCBFB4 /* sr_refresh@2X.png in Resources */ = {isa = PBXBuildFile; fileRef = 091CF27C2108953600DCBFB4 /* sr_refresh@2X.png */; };
+		092EC6DD21747B98000E0E6D /* HWSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = 092EC6DC21747B98000E0E6D /* HWSlider.m */; };
 		092F12E8200CE6140012C67E /* NSNumber+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F1298200CE6140012C67E /* NSNumber+Zirkfied.m */; };
 		092F12E9200CE6140012C67E /* NSString+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F129A200CE6140012C67E /* NSString+Zirkfied.m */; };
 		092F12EA200CE6140012C67E /* UIBezierPath+Zirkfied.m in Sources */ = {isa = PBXBuildFile; fileRef = 092F129C200CE6140012C67E /* UIBezierPath+Zirkfied.m */; };
@@ -394,6 +395,8 @@
 		091CF27B2108953600DCBFB4 /* SRDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRDefine.h; sourceTree = "<group>"; };
 		091CF27C2108953600DCBFB4 /* sr_refresh@2X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sr_refresh@2X.png"; sourceTree = "<group>"; };
 		091CF27D2108953600DCBFB4 /* SRRefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SRRefreshView.h; sourceTree = "<group>"; };
+		092EC6DB21747B98000E0E6D /* HWSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HWSlider.h; sourceTree = "<group>"; };
+		092EC6DC21747B98000E0E6D /* HWSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HWSlider.m; sourceTree = "<group>"; };
 		092F1297200CE6140012C67E /* NSNumber+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+Zirkfied.h"; sourceTree = "<group>"; };
 		092F1298200CE6140012C67E /* NSNumber+Zirkfied.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+Zirkfied.m"; sourceTree = "<group>"; };
 		092F1299200CE6140012C67E /* NSString+Zirkfied.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Zirkfied.h"; sourceTree = "<group>"; };
@@ -1177,6 +1180,23 @@
 			path = Tool/SlimeRefresh;
 			sourceTree = "<group>";
 		};
+		092EC6D921747B98000E0E6D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				092EC6DA21747B98000E0E6D /* HWSlider */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		092EC6DA21747B98000E0E6D /* HWSlider */ = {
+			isa = PBXGroup;
+			children = (
+				092EC6DB21747B98000E0E6D /* HWSlider.h */,
+				092EC6DC21747B98000E0E6D /* HWSlider.m */,
+			);
+			path = HWSlider;
+			sourceTree = "<group>";
+		};
 		092F1295200CE6140012C67E /* ZFChart */ = {
 			isa = PBXGroup;
 			children = (
@@ -1712,9 +1732,8 @@
 		0962F1D420034EA0006059CC /* TianYi */ = {
 			isa = PBXGroup;
 			children = (
+				092EC6D921747B98000E0E6D /* View */,
 				0962F1D520034EA0006059CC /* Controller */,
-				0962F1D620034EA0006059CC /* Model */,
-				0962F1D720034EA0006059CC /* View */,
 			);
 			path = TianYi;
 			sourceTree = "<group>";
@@ -1726,20 +1745,6 @@
 				0962F24520039F97006059CC /* TianyiViewController.m */,
 			);
 			path = Controller;
-			sourceTree = "<group>";
-		};
-		0962F1D620034EA0006059CC /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0962F1D720034EA0006059CC /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		0962F1D820034EA0006059CC /* Common */ = {
@@ -3180,6 +3185,7 @@
 				097F579C2153BD2200FAC87B /* ZFLine.m in Sources */,
 				097F57BC2153BD2200FAC87B /* MeViewController.m in Sources */,
 				09851165200F6AB5008DA0EE /* FindHeadCell.m in Sources */,
+				092EC6DD21747B98000E0E6D /* HWSlider.m in Sources */,
 				097F57CE2153BD2200FAC87B /* MoreNewsViewController.m in Sources */,
 				09BD29A52005263000DEE680 /* SDWebImageImageIOCoder.m in Sources */,
 				092F1302200CE6140012C67E /* ZFPieChart.m in Sources */,
